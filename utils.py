@@ -4,6 +4,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import time
+from math import radians, sin, cos, sqrt, atan2
 
 station_path = 'data/station.json'
 vehicle_path = 'data/vehicle.json'
@@ -39,6 +40,21 @@ def openURL(url):
     
     # Close the browser
     driver.quit()
+
+def calculate_distance(lat1, lng1, lat2, lng2):
+    lat1 = radians(lat1)
+    lon1 = radians(lng1)
+    lat2 = radians(lat2)
+    lon2 = radians(lng2)
+
+    radius = 6371000  # approximate value
+
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    distance = radius * c
+    return distance
 
 
 class Coordinates:

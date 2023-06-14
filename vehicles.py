@@ -1,6 +1,4 @@
-
-from user import User
-from utils import Coordinates
+from utils import Coordinates, calculate_distance
 
 class VehicleDetails:
     def __init__(self, vehicleDetails):
@@ -20,15 +18,15 @@ class Vehicle:
         self.vehicleDetails = vehicleDetails
         self.distance = None
 
-    def calculate_distances_from_user(self, user: User):
-        self.distance = user.calculate_distance(self.position.latitude, self.position.longitude)
+    def calculate_distance(self, lat, lng):
+        self.distance = calculate_distance(self.position.latitude, self.position.longitude, lat, lng)
 
 
 class VehicleGroup:
     def __init__(self, vehicles : list):
         self.vehicles : list(Vehicle) = vehicles
 
-    def sort_by_distance(self, distance):
+    def sort_by_distance(self):
         self.vehicles.sort(key=lambda vehicle: vehicle.distance)
 
     def print(self):
@@ -38,11 +36,11 @@ class VehicleGroup:
     def add_vehicle(self, vehicle : Vehicle):
         self.vehicles.append(vehicle)
 
-    def calculate_distances_from_user(self, user: User):
+    def calculate_distances(self, coordinates: Coordinates):
         for vehicle in self.vehicles:
-            vehicle.calculate_distances_from_user(user)
+            vehicle.calculate_distance(coordinates.latitude, coordinates.longitude)
 
-    def get_vehicle_within_radius(self, radius: int, user: User):
+    def get_vehicle_within_radius(self, radius: int):
         result = VehicleGroup([])
         for vehicle in self.vehicles:
             if (vehicle.distance < int(radius)):

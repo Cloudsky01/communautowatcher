@@ -1,8 +1,6 @@
 import PySimpleGUI as sg
 import time
-from logic import main
-from user import User
-from logic import fetch_all_vehicles, fetch_vehicle_distance_from_user
+from logic import fetch_all_vehicles
 from repeatTimer import RepeatTimer
 import folium
 
@@ -12,11 +10,13 @@ layout = [
         sg.Column([
             [sg.Text('Enter distance (in meters): '), sg.Input(key='distance')],
             [sg.Text('Enter sleep time (in seconds): '), sg.Input(key='sleep_time')],
+            [sg.Text('Enter longitude: '), sg.Input(key='longitude')],
+            [sg.Text('Enter latitude: '), sg.Input(key='latitude')],
             [sg.Button('Search'), sg.Button('Stop'), sg.Button('Clear'), sg.Button('Exit')],
             [sg.Text('Data Updated:'), sg.Text(time.strftime('%Y-%m-%d %H:%M:%S'), size=(20, 1), key='updated')],
             [sg.Text('Vehicle Count:'), sg.Text('', size=(20, 1), key='vehicle_count')],
             [sg.Frame('Vehicle List', [[sg.Listbox(values=[], size=(40, 20), key='vehicle_list')]])],
-        ], element_justification='center', expand_x=True, expand_y=True),
+        ], element_justification='left', expand_x=True, expand_y=True),
         sg.Column([
             [
                 sg.Radio('Map', 'radio', key='radio_map', default=True),
@@ -38,7 +38,6 @@ layout = [
 class Model:
     def __init__(self, view):
         self.view = view
-        self.user = User()
         self.vehicle_group = None
         self.vehicle_count = 0
         self.time = time.strftime('%Y-%m-%d %H:%M:%S')
@@ -53,7 +52,6 @@ class Model:
 
     def update_list(self, vehicles):
         self.vehicle_group = vehicles
-        vehicles.sort(key=lambda vehicle: vehicle.distance)
         result = []
         for e in vehicles:
             result.append(f"Vehicle ID: {e.vehicle_id}, Distance: {int(e.distance)} meters\n")
@@ -127,27 +125,20 @@ class Controller:
     def toggle_refresh(self, enabled):
         self.refresh_enabled = enabled  # Set the refresh state based on the enabled parameter
 
-    def find_vehicles(self, distance):
+    def find_vehicles(self, distance, latitude, longitude):
         # Update the model and trigger the necessary computations
-        self.model.user = User()
-        self.model.vehicle_group = fetch_all_vehicles(self.model.user)
-        self.model.vehicle_group = fetch_vehicle_distance_from_user(distance, self.model.user, self.model.vehicle_group)
+        self.model.vehicle_group = fetch_all_vehicles(latitude, longitude)
 
         # Update the view based on the model
         self.model.update_time(time.strftime('%Y-%m-%d %H:%M:%S'))
         self.model.update_vehicle_count(len(self.model.vehicle_group.vehicles))
-        self.model.update_list(self.model.vehicle_group.get_vehicle_within_radius(distance, self.model.user).vehicles)
-        lat, lon = self.model.user.lat, self.model.user.lat
-        self.generate_map(lat, lon)
+        self.model.update_list(self.model.vehicle_group.get_vehicle_within_radius(distance).vehicles)
 
     def error(self, message):
         self.view.error(message)
 
     def clear(self):
         self.view.clear()
-
-    def generate_map(self, lat, lon):
-        self.model.generate_map(lat, lon)
 
     def run(self):
         while True:
@@ -160,8 +151,10 @@ class Controller:
                     # Start the refresh thread
                     self.toggle_refresh(True)  # Enable refresh
                     distance = int(values['distance'])
-                    self.find_vehicles(distance)
-                    self.refresh_thread = RepeatTimer(int(values['sleep_time']), self.find_vehicles, args=(distance,))
+                    latitude = float(values['latitude'])
+                    longitude = float(values['longitude'])
+                    self.find_vehicles(distance, latitude, longitude)
+                    self.refresh_thread = RepeatTimer(int(values['sleep_time']), self.find_vehicles, args=(distance, latitude, longitude))
                     self.refresh_thread.start()
                 elif event == 'Stop':
                     self.toggle_refresh(False)

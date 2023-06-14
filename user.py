@@ -3,16 +3,12 @@ from math import radians, sin, cos, sqrt, atan2
 
 class User:
     def __init__(self):
-        self.update_current_geolocation()  
+        self.lat = None
+        self.lng = None  
 
-    def update_current_geolocation(self):
-        current_loc = self.get_current_geolocation()
-        if current_loc is not None:
-            self.lat = current_loc[0]
-            self.lng = current_loc[1]
-        else:
-            self.lat = None
-            self.lng = None
+    def update_current_geolocation(self, lat, lng):
+        self.lat = lat
+        self.lng = lng
 
     def get_current_geolocation(self):
         g = geocoder.ip('me')
