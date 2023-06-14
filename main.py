@@ -13,7 +13,7 @@ layout = [
             [sg.Text('Enter longitude: '), sg.Input(key='longitude')],
             [sg.Text('Enter latitude: '), sg.Input(key='latitude')],
             [sg.Button('Search'), sg.Button('Stop'), sg.Button('Clear'), sg.Button('Exit')],
-            [sg.Text('Data Updated:'), sg.Text(time.strftime('%Y-%m-%d %H:%M:%S'), size=(20, 1), key='updated')],
+            [sg.Text('Data Updated:'), sg.Text('', size=(20, 1), key='updated')],
             [sg.Text('Vehicle Count:'), sg.Text('', size=(20, 1), key='vehicle_count')],
             [sg.Frame('Vehicle List', [[sg.Listbox(values=[], size=(40, 20), key='vehicle_list')]])],
         ], element_justification='left', expand_x=True, expand_y=True),
@@ -40,7 +40,7 @@ class Model:
         self.view = view
         self.vehicle_group = None
         self.vehicle_count = 0
-        self.time = time.strftime('%Y-%m-%d %H:%M:%S')
+        self.time = None
 
     def update_vehicle_count(self, count):
         self.vehicle_count = count
