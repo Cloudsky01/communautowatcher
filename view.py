@@ -3,6 +3,8 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout,
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt, QTimer
 
+from logic import fetch_all_vehicles
+
 class View(QMainWindow):
     def __init__(self):
         super().__init__()
