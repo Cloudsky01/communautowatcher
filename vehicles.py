@@ -51,5 +51,11 @@ class VehicleGroup:
         if not self.vehicles:
             return None
         return min(self.vehicles, key=lambda vehicle: vehicle.distance)
+    
+    def __len__(self):
+        return len(self.vehicles)
+    
+    def __iter__(self):
+        return iter(self.vehicles)
 
     
