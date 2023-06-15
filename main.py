@@ -1,14 +1,5 @@
 import sys
-import time
-import webbrowser
-import folium
-from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QWidget, QLabel, QLineEdit, \
-    QPushButton, QTextEdit, QListWidget, QSlider, QMessageBox
-from PyQt5.QtGui import QPixmap
-from PyQt5.QtCore import Qt
-
-from logic import fetch_all_vehicles
-from repeatTimer import RepeatTimer
+from PyQt5.QtWidgets import QApplication
 from model import Model
 from view import View
 from controller import Controller
