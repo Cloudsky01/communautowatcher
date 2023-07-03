@@ -34,11 +34,12 @@ class Controller:
             self.refresh_thread.start()
 
     def get_vehicle_details(self, vehicle_id):
-        if self.vehicle_group:
-            for vehicle in self.vehicle_group:
-                if vehicle.vehicle_id == vehicle_id:
-                    return vehicle.get_details()
-        return ''
+        if self.vehicle_group is None:
+            self.find_all_vehicles()
+        for vehicle in self.vehicle_group:
+            if vehicle.vehicle_id == vehicle_id:
+                return vehicle.get_details()
+        return "No vehicle found with the provided ID"
 
     def find_all_vehicles(self, lat, lng):
         self.vehicle_group = fetch_all_vehicles(lat, lng)
@@ -55,7 +56,7 @@ class Controller:
     def update_list(self):
         vehicle_info_list = []
         for vehicle in self.model.vehicle_group_within_radius:
-            vehicle_info = f"ID: {vehicle.vehicle_id}, Distance: {vehicle.distance}, Coordinates: ({vehicle.position.latitude}, {vehicle.position.longitude})"
+            vehicle_info = f"ID: {vehicle.vehicle_id}\nDistance: {vehicle.distance:.2f} meters"
             vehicle_info_list.append(vehicle_info)
         self.view.update_vehicle_list(vehicle_info_list)
 

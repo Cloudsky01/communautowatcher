@@ -20,6 +20,9 @@ class Vehicle:
 
     def calculate_distance(self, lat, lng):
         self.distance = calculate_distance(self.position.latitude, self.position.longitude, lat, lng)
+    
+    def get_details(self):
+        return self.vehicleDetails.type()
 
 
 class VehicleGroup:

@@ -46,6 +46,7 @@ class View(QMainWindow):
         self.vehicle_count_value = QLabel('')
 
         self.vehicle_list = QListWidget()
+        self.vehicle_list.itemClicked.connect(self.on_vehicle_list_item_clicked)
 
         self.show_map_button = QPushButton('Show Map')
         self.show_map_button.setEnabled(False)
@@ -131,6 +132,14 @@ class View(QMainWindow):
             vehicle_id = int(vehicle_id)
             self.controller.show_map(vehicle_id)
 
+    def on_vehicle_list_item_clicked(self):
+        vehicle_id = self.vehicle_list.currentItem().text().split('\n')[0].split(' ')[1]
+        print(vehicle_id)
+        if vehicle_id.isdigit():
+            vehicle_id = int(vehicle_id)
+            self.update_vehicle_details(str(self.controller.get_vehicle_details(vehicle_id)))
+
+
     def update_vehicle_count(self, count):
         self.vehicle_count_value.setText(str(count))
 
@@ -144,6 +153,9 @@ class View(QMainWindow):
     def update_vehicle_map(self, image_path):
         pixmap = QPixmap(image_path)
         self.vehicle_map_label.setPixmap(pixmap)
+
+    def update_vehicle_details(self, details):
+        self.vehicle_details_text.setText(details)
 
     def show_location_on_map(self, lat, lon):
         self.latitude_input.setText(str(lat))
