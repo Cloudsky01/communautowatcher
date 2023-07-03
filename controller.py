@@ -1,6 +1,7 @@
 import time
-from logic import fetch_all_vehicles
+from logic import fetch_all_vehicles, fetch_vehicle_details
 from repeatTimer import RepeatTimer
+
 
 
 class Controller:
@@ -34,12 +35,7 @@ class Controller:
             self.refresh_thread.start()
 
     def get_vehicle_details(self, vehicle_id):
-        if self.vehicle_group is None:
-            self.find_all_vehicles()
-        for vehicle in self.vehicle_group:
-            if vehicle.vehicle_id == vehicle_id:
-                return vehicle.get_details()
-        return "No vehicle found with the provided ID"
+        return fetch_vehicle_details(vehicle_id)
 
     def find_all_vehicles(self, lat, lng):
         self.vehicle_group = fetch_all_vehicles(lat, lng)

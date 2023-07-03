@@ -1,28 +1,31 @@
 from utils import Coordinates, calculate_distance
 
 class VehicleDetails:
-    def __init__(self, vehicleDetails):
-        self.vehicleDetails = vehicleDetails
+    def __init__(self, vehicle_details):
+        self.vehicleDetails = vehicle_details
+
+    def format_details(self):
+        result = ""
+        for key, value in self.vehicleDetails.items():
+            result += f"{key}: {value}" + "\n"
+        return result
     
-    def type(self):
-        return self.vehicleDetails['vehicleTypeId']
-    
-    def propulsion_type(self):
-        return self.vehicleDetails['propulsionTypeId']
+    def get_formatted_details(self):
+        return self.format_details()
     
 
 class Vehicle:
-    def __init__(self, vehicle_id : int, position : Coordinates, vehicleDetails : VehicleDetails):
+    def __init__(self, vehicle_id : int, position : Coordinates):
         self.vehicle_id = vehicle_id
         self.position = position
-        self.vehicleDetails = vehicleDetails
         self.distance = None
 
     def calculate_distance(self, lat, lng):
         self.distance = calculate_distance(self.position.latitude, self.position.longitude, lat, lng)
     
     def get_details(self):
-        return self.vehicleDetails.type()
+        self.vehicleDetails = VehicleDetails(self.vehicle_id)
+        return self.vehicleDetails.get_formatted_details()
 
 
 class VehicleGroup:
