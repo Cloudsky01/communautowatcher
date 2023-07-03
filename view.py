@@ -46,7 +46,6 @@ class View(QMainWindow):
         self.vehicle_count_value = QLabel('')
 
         self.vehicle_list = QListWidget()
-        self.vehicle_list.currentRowChanged.connect(self.on_vehicle_list_current_row_changed)
 
         self.show_map_button = QPushButton('Show Map')
         self.show_map_button.setEnabled(False)
@@ -131,12 +130,6 @@ class View(QMainWindow):
         if vehicle_id.isdigit():
             vehicle_id = int(vehicle_id)
             self.controller.show_map(vehicle_id)
-
-    def on_vehicle_list_current_row_changed(self):
-        vehicle_id = self.vehicle_list.currentItem().text()
-        if vehicle_id.isdigit():
-            vehicle_id = int(vehicle_id)
-            # self.controller.show_details(vehicle_id)
 
     def update_vehicle_count(self, count):
         self.vehicle_count_value.setText(str(count))
