@@ -1,9 +1,96 @@
-from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout, QWidget, QLabel, QLineEdit, \
+from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout,QListWidgetItem,  QWidget, QLabel, QLineEdit, \
     QPushButton, QTextEdit, QListWidget, QSlider, QMessageBox
 from PyQt5.QtGui import QPixmap
-from PyQt5.QtCore import Qt, QTimer
+from PyQt5.QtCore import Qt, pyqtSignal
 
 from logic import fetch_all_vehicles
+
+class CustomListWidget(QListWidget):
+    itemClicked = pyqtSignal(QListWidgetItem)
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+
+    def mousePressEvent(self, event):
+        item = self.itemAt(event.pos())
+        if item:
+            self.itemClicked.emit(item)
+        super().mousePressEvent(event)
+
+
+class CustomListItem(QListWidgetItem):
+    def __init__(self, text):
+        super().__init__(text)
+
+
+class FilterWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        # Create the CustomListWidget
+        self.list_widget = CustomListWidget()
+
+        # Create the filter line edit for make of the vehicle
+        self.make_filter_edit = QLineEdit()
+        self.make_filter_edit.setPlaceholderText("Enter make of the vehicle")
+
+        # Create the filter line edit for distance
+        self.distance_filter_edit = QLineEdit()
+        self.distance_filter_edit.setPlaceholderText("Enter distance")
+
+        # Create the filter buttons
+        self.make_filter_button = QPushButton("Filter by Make")
+        self.distance_filter_button = QPushButton("Filter by Distance")
+
+        # Connect the filter buttons to their respective slots
+        self.make_filter_button.clicked.connect(self.filter_by_make)
+        self.distance_filter_button.clicked.connect(self.filter_by_distance)
+
+        # Create a layout and add the widgets
+        layout = QVBoxLayout()
+        layout.addWidget(self.make_filter_edit)
+        layout.addWidget(self.make_filter_button)
+        layout.addWidget(self.distance_filter_edit)
+        layout.addWidget(self.distance_filter_button)
+        layout.addWidget(self.list_widget)
+
+        # Set the layout for the widget
+        self.setLayout(layout)
+
+    def create_list_item(self, text):
+        item = CustomListItem(text)
+        item.setFlags(item.flags() | Qt.ItemIsSelectable)
+        item.setFlags(item.flags() | Qt.ItemIsEnabled)
+        item.setTextAlignment(Qt.AlignCenter)
+        item.setCheckState(Qt.Unchecked)
+        item.setFlags(item.flags() | Qt.ItemIsUserCheckable)
+        return item
+
+    def update_vehicle_list(self, vehicle_info_list):
+        self.clear_list()  # Clear the list before populating with new items
+        for vehicle_info in vehicle_info_list:
+            self.add_item(str(vehicle_info))  # Convert vehicle_info to a string and add it as an item
+
+    def add_item(self, text):
+        item = self.create_list_item(text)
+        self.list_widget.addItem(item)
+
+    def clear_list(self):
+        self.list_widget.clear()
+
+    def clear(self):
+        self.clear_list()
+
+    def filter_by_make(self):
+        make_filter_text = self.make_filter_edit.text()
+        # Apply filter by make logic
+        # Clear the list_widget and populate it with filtered items
+
+    def filter_by_distance(self):
+        distance_filter_text = self.distance_filter_edit.text()
+        # Apply filter by distance logic
+        # Clear the list_widget and populate it with filtered items
+
 
 class View(QMainWindow):
     def __init__(self):
@@ -45,8 +132,8 @@ class View(QMainWindow):
         self.vehicle_count_label = QLabel('Vehicle Count:')
         self.vehicle_count_value = QLabel('')
 
-        self.vehicle_list = QListWidget()
-        self.vehicle_list.itemClicked.connect(self.on_vehicle_list_item_clicked)
+        self.vehicle_list = FilterWidget()
+        self.vehicle_list.list_widget.itemClicked.connect(self.on_vehicle_list_item_clicked)
 
         self.show_map_button = QPushButton('Show Map')
         self.show_map_button.setEnabled(False)
@@ -132,12 +219,12 @@ class View(QMainWindow):
             vehicle_id = int(vehicle_id)
             self.controller.show_map(vehicle_id)
 
-    def on_vehicle_list_item_clicked(self):
-        vehicle_id = self.vehicle_list.currentItem().text().split('\n')[0].split(' ')[1]
-        print(vehicle_id)
+    def on_vehicle_list_item_clicked(self, item):
+        vehicle_id = item.text().split('\n')[0].split(' ')[1]
         if vehicle_id.isdigit():
             vehicle_id = int(vehicle_id)
             self.update_vehicle_details(str(self.controller.get_vehicle_details(vehicle_id)))
+
 
 
     def update_vehicle_count(self, count):
@@ -145,7 +232,8 @@ class View(QMainWindow):
 
     def update_vehicle_list(self, vehicles):
         self.vehicle_list.clear()
-        self.vehicle_list.addItems(vehicles)
+        for vehicle in vehicles:
+            self.vehicle_list.add_item(vehicle)
 
     def update_time(self, time):
         self.updated_value.setText(time)
