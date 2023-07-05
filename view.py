@@ -1,9 +1,12 @@
+import time
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout,QListWidgetItem,  QWidget, QLabel, QLineEdit, \
     QPushButton, QTextEdit, QListWidget, QSlider, QMessageBox, QTabWidget
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt, pyqtSignal
 
-from logic import fetch_all_vehicles
+from logic import fetch_all_vehicles, fetch_vehicle_details
+from model import Model
+from repeatTimer import RepeatTimer
 
 class CustomListWidget(QListWidget):
     itemClicked = pyqtSignal(QListWidgetItem)
@@ -93,8 +96,14 @@ class FilterWidget(QWidget):
 
 
 class CustomWidget(QWidget):
-    def __init__(self):
+    def __init__(self, model: Model):
         super().__init__()
+
+        self.refresh_thread = None
+        self.stop_flag = False
+
+        self.model = model
+
         self.distance_label = QLabel()
         self.distance_slider = QSlider(Qt.Horizontal)
         self.distance_slider.setRange(1, 1000)
@@ -185,27 +194,24 @@ class CustomWidget(QWidget):
         layout.addLayout(right_layout)
 
         self.setLayout(layout)
-
-        self.controller = None
-
     def on_search_button_clicked(self):
         distance = self.distance_slider.value()
         latitude = float(self.latitude_input.text())
         longitude = float(self.longitude_input.text())
         self.search_button.setEnabled(False)
         interval = int(self.sleep_time_input.text())
-        self.controller.toggle_auto_refresh(interval, distance, latitude, longitude)
+        self.toggle_auto_refresh(interval, distance, latitude, longitude)
 
     def on_refresh_button_clicked(self):
         distance = self.distance_slider.value()
         latitude = float(self.latitude_input.text())
         longitude = float(self.longitude_input.text())
-        self.controller.refresh(distance, latitude, longitude)
+        self.refresh(distance, latitude, longitude)
 
     def on_stop_button_clicked(self):
         self.search_button.setEnabled(True)
         self.show_map_button.setEnabled(False)
-        self.controller.stop_search()
+        self.stop_search()
 
     def on_clear_button_clicked(self):
         self.vehicle_list.clear()
@@ -217,13 +223,13 @@ class CustomWidget(QWidget):
         vehicle_id = self.vehicle_list.currentItem().text()
         if vehicle_id.isdigit():
             vehicle_id = int(vehicle_id)
-            self.controller.show_map(vehicle_id)
+            self.show_map(vehicle_id)
 
     def on_vehicle_list_item_clicked(self, item):
         vehicle_id = item.text().split('\n')[0].split(' ')[1]
         if vehicle_id.isdigit():
             vehicle_id = int(vehicle_id)
-            self.update_vehicle_details(str(self.controller.get_vehicle_details(vehicle_id)))
+            self.update_vehicle_details(str(self.get_vehicle_details(vehicle_id)))
 
     def update_vehicle_count(self, count):
         self.vehicle_count_value.setText(str(count))
@@ -254,16 +260,58 @@ class CustomWidget(QWidget):
     def on_stop_button_clicked(self):
         self.search_button.setEnabled(True)
         self.show_map_button.setEnabled(False)
-        self.controller.stop_search()
+        self.stop_search()
+
+    def refresh(self, distance, latitude, longitude):
+        self.model.all_vehicle_group = self.find_all_vehicles(latitude, longitude)
+        self.model.vehicle_group_within_radius = self.find_vehicles_within_radius(distance)
+        self.update_list()
+        self.update_vehicle_count(self.model.vehicle_count)
+        self.update_time(time.strftime("%H:%M:%S", time.localtime()))
+
+    def stop_search(self):
+        self.stop_flag = True
+        if self.refresh_thread:
+            self.refresh_thread.stop()
+            self.refresh_thread.join()
+            self.refresh_thread = None
+
+    def toggle_auto_refresh(self, interval, distance, latitude, longitude):
+        if self.refresh_thread:
+            self.refresh_thread.stop()
+            self.refresh_thread = None
+        else:
+            self.stop_flag = False
+            self.refresh_thread = RepeatTimer(interval, self.refresh, args=(distance, latitude, longitude))
+            self.refresh_thread.start()
+
+    def get_vehicle_details(self, vehicle_id):
+        return fetch_vehicle_details(vehicle_id)
+
+    def find_all_vehicles(self, lat, lng):
+        self.vehicle_group = fetch_all_vehicles(lat, lng)
+        self.vehicle_count = len(self.vehicle_group)
+        return self.vehicle_group
+    
+    def find_vehicles_within_radius(self, distance):
+        self.vehicle_group = self.vehicle_group.get_vehicle_within_radius(distance)
+        return self.vehicle_group
+    
+    def update_list(self):
+        vehicle_info_list = []
+        for vehicle in self.model.vehicle_group_within_radius:
+            vehicle_info = f"ID: {vehicle.vehicle_id}\nDistance: {vehicle.distance:.2f} meters"
+            vehicle_info_list.append(vehicle_info)
+        self.update_vehicle_list(vehicle_info_list)
 
 class View(QMainWindow):
-    def __init__(self):
+    def __init__(self, model: Model):
         super().__init__()
         self.setWindowTitle('Communauto Watcher')
 
         self.tab_widget = QTabWidget()
 
-        self.tab1 = CustomWidget()
+        self.tab1 = CustomWidget(model)
         self.tab2 = QWidget()
 
         self.tab_widget.addTab(self.tab1, "Tab 1")

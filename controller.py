@@ -8,8 +8,7 @@ class Controller:
     def __init__(self, model, view):
         self.model = model
         self.view = view
-        self.refresh_thread = None
-        self.stop_flag = False
+        
 
     def refresh(self, distance, latitude, longitude):
         self.model.all_vehicle_group = self.find_all_vehicles(latitude, longitude)
@@ -55,7 +54,3 @@ class Controller:
             vehicle_info = f"ID: {vehicle.vehicle_id}\nDistance: {vehicle.distance:.2f} meters"
             vehicle_info_list.append(vehicle_info)
         self.view.update_vehicle_list(vehicle_info_list)
-
-
-    def update_vehicle_count(self):
-        self.view.update_vehicle_count(self.vehicle_count)
