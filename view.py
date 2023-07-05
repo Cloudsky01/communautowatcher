@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QHBoxLayout,QListWidgetItem,  QWidget, QLabel, QLineEdit, \
-    QPushButton, QTextEdit, QListWidget, QSlider, QMessageBox
+    QPushButton, QTextEdit, QListWidget, QSlider, QMessageBox, QTabWidget
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt, pyqtSignal
 
@@ -92,11 +92,9 @@ class FilterWidget(QWidget):
         # Clear the list_widget and populate it with filtered items
 
 
-class View(QMainWindow):
+class CustomWidget(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('Communauto Watcher')
-
         self.distance_label = QLabel()
         self.distance_slider = QSlider(Qt.Horizontal)
         self.distance_slider.setRange(1, 1000)
@@ -149,7 +147,7 @@ class View(QMainWindow):
         self.vehicle_details_text.setReadOnly(True)
 
         central_widget = QWidget()
-        self.setCentralWidget(central_widget)
+        # super().setCentralWidget(central_widget)
 
         layout = QHBoxLayout()
         central_widget.setLayout(layout)
@@ -185,6 +183,8 @@ class View(QMainWindow):
 
         layout.addLayout(left_layout)
         layout.addLayout(right_layout)
+
+        self.setLayout(layout)
 
         self.controller = None
 
@@ -225,8 +225,6 @@ class View(QMainWindow):
             vehicle_id = int(vehicle_id)
             self.update_vehicle_details(str(self.controller.get_vehicle_details(vehicle_id)))
 
-
-
     def update_vehicle_count(self, count):
         self.vehicle_count_value.setText(str(count))
 
@@ -257,3 +255,19 @@ class View(QMainWindow):
         self.search_button.setEnabled(True)
         self.show_map_button.setEnabled(False)
         self.controller.stop_search()
+
+class View(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle('Communauto Watcher')
+
+        self.tab_widget = QTabWidget()
+
+        self.tab1 = CustomWidget()
+        self.tab2 = QWidget()
+
+        self.tab_widget.addTab(self.tab1, "Tab 1")
+        self.tab_widget.addTab(self.tab2, "Tab 2")
+
+        self.setCentralWidget(self.tab_widget)
+
