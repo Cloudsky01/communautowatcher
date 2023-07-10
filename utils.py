@@ -1,16 +1,18 @@
 import requests
 import json
-# from selenium import webdriver
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 # from webdriver_manager.chrome import ChromeDriverManager
 # from selenium.webdriver.chrome.options import Options
 import time
 from math import radians, sin, cos, sqrt, atan2
+import webbrowser
 
 station_path = 'data/station.json'
 vehicle_path = 'data/vehicle.json'
 sorted_vehicles_path = 'data/sorted_vehicles.json'
 
-CHROMEDRIVER_PATH = "C:/Users/apoel/.wdm/drivers/chromedriver/win32/114.0.5735.90/chromedriver.exe"
+CHROMEDRIVER_PATH = "./drivers/chromedriver.exe"
 
 def callAPI(url):
     try:
@@ -32,14 +34,12 @@ def read_file(file_path):
     
 def openURL(url):
     # Create a new instance of the Firefox driver (you can use other drivers as well)
-    driver = webdriver.Chrome(CHROMEDRIVER_PATH)
-    driver.get(url)
+    # options = Options()
+    # options.add_experimental_option("detach", True)
+    # browser = webdriver.Chrome(options=options)
+    # browser.get(url)
+    webbrowser.open(url)
 
-    # Wait for 5 seconds before closing the browser
-    time.sleep(5)
-    
-    # Close the browser
-    driver.quit()
 
 def calculate_distance(lat1, lng1, lat2, lng2):
     lat1 = radians(lat1)
