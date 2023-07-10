@@ -1,8 +1,8 @@
 import requests
 import json
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
+# from selenium import webdriver
+# from webdriver_manager.chrome import ChromeDriverManager
+# from selenium.webdriver.chrome.options import Options
 import time
 from math import radians, sin, cos, sqrt, atan2
 

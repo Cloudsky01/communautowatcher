@@ -2,7 +2,6 @@ from vehicles import VehicleGroup
 from utils import callAPI, write_to_file, Coordinates
 import time
 from vehicles import Vehicle, VehicleDetails
-import psutil
 
 
 def fetch_all_vehicles(lat, lng) -> VehicleGroup:
