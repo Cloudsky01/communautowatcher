@@ -1,0 +1,6534 @@
+{
+  "nbStations": 593,
+  "cachingInfo": {
+    "cachingDurationInSec": 3600,
+    "servedFromCache": false,
+    "cachingExpirationUTCDate": null,
+    "hashCode": 0
+  },
+  "stations": [
+    {
+      "stationId": 3048,
+      "stationNb": "786",
+      "stationName": "St-Germain et Ontario E",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541554,
+        "longitude": -73.547597
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3046,
+      "stationNb": "784",
+      "stationName": "403 Rue St-Roch",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5320082982712,
+        "longitude": -73.6281759597367
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3045,
+      "stationNb": "783",
+      "stationName": "Beaumont et Querbes",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527454,
+        "longitude": -73.619237
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3044,
+      "stationNb": "782",
+      "stationName": "de Maisonneuve E et Parthenais",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5271964646686,
+        "longitude": -73.5499263925303
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3043,
+      "stationNb": "781",
+      "stationName": "Ferrier et Décarie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4978477018924,
+        "longitude": -73.65717596877
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3037,
+      "stationNb": "780",
+      "stationName": "Crémazie et Lajeunesse",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.546663,
+        "longitude": -73.637676
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3034,
+      "stationNb": "779",
+      "stationName": "Fullum et de Rouen",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5322378833331,
+        "longitude": -73.5593269314663
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3030,
+      "stationNb": "777",
+      "stationName": "Hôtel de Ville de Montréal-Est",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.630769,
+        "longitude": -73.494977
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3029,
+      "stationNb": "776",
+      "stationName": "Georges-V et Souligny",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.611911,
+        "longitude": -73.512339
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3024,
+      "stationNb": "775",
+      "stationName": "de Côme et Jean-Talon E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.588043,
+        "longitude": -73.577526
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 3020,
+      "stationNb": "773",
+      "stationName": "Station-zone Champagneur et St-Roch",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5282390683927,
+        "longitude": -73.6292274317207
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3019,
+      "stationNb": "772",
+      "stationName": "Station-zone d'Outremont et Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5263121263571,
+        "longitude": -73.6236065758464
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3018,
+      "stationNb": "771",
+      "stationName": "Station-zone Palm et de Courcelle",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4719586668147,
+        "longitude": -73.5882551947956
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3017,
+      "stationNb": "770",
+      "stationName": "Station-zone Irène et St-Jacques",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4802828384318,
+        "longitude": -73.5846878575267
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3016,
+      "stationNb": "769",
+      "stationName": "Station-zone Bourget et Ste-Émilie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4782940773146,
+        "longitude": -73.5791697819515
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3015,
+      "stationNb": "768",
+      "stationName": "Station-zone Charlevoix et Coleraine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.475832,
+        "longitude": -73.563546
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3014,
+      "stationNb": "767",
+      "stationName": "Station-zone Centre et Shearer",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.482646,
+        "longitude": -73.563223
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3013,
+      "stationNb": "766",
+      "stationName": "Station-zone Ste-Madeleine et Favard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.480108,
+        "longitude": -73.555751
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3012,
+      "stationNb": "765",
+      "stationName": "Station-zone Allard et Mazarin",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.450161,
+        "longitude": -73.598891
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3011,
+      "stationNb": "764",
+      "stationName": "Station-zone Laurendeau et Desmarchais",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.455774,
+        "longitude": -73.588895
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3010,
+      "stationNb": "763",
+      "stationName": "Station-zone Hadley et Cardinal",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4601680878815,
+        "longitude": -73.5919395211581
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3009,
+      "stationNb": "762",
+      "stationName": "Station-zone Champigny et Angers",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.460747,
+        "longitude": -73.584844
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3008,
+      "stationNb": "761",
+      "stationName": "Station-zone Monteith et Allard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.446864,
+        "longitude": -73.580578
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3007,
+      "stationNb": "760",
+      "stationName": "Station-zone Evelyn et Regina",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4680822391049,
+        "longitude": -73.5692598627973
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3003,
+      "stationNb": "759",
+      "stationName": "Station-zone Wilderton et Kent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.510211,
+        "longitude": -73.62712
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3002,
+      "stationNb": "758",
+      "stationName": "Station-zone Darlington et de Soissons",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.507084,
+        "longitude": -73.623289
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3001,
+      "stationNb": "757",
+      "stationName": "Station-zone Le Triangle",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.49876,
+        "longitude": -73.650891
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 3000,
+      "stationNb": "756",
+      "stationName": "Station-zone Northcliffe et Sherbrooke O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4758534860321,
+        "longitude": -73.6097504398801
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2999,
+      "stationNb": "755",
+      "stationName": "Station-zone Coolbrook et Snowdon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.481644,
+        "longitude": -73.626619
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2998,
+      "stationNb": "754",
+      "stationName": "Station-zone Harvard et Sherbrooke O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4700168957391,
+        "longitude": -73.6141514117699
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2997,
+      "stationNb": "753",
+      "stationName": "Station-zone Waverly et Fleury O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.546333,
+        "longitude": -73.666237
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2996,
+      "stationNb": "752",
+      "stationName": "Station-zone Sauriol et Durham",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.554708,
+        "longitude": -73.657575
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2995,
+      "stationNb": "751",
+      "stationName": "Station-zone Berri et Émile-Journault",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.547162,
+        "longitude": -73.64227
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2994,
+      "stationNb": "750",
+      "stationName": "Station-zone de André-Grasset et Henri-Gauthier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.555355,
+        "longitude": -73.630258
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2993,
+      "stationNb": "749",
+      "stationName": "Station-zone de Gaspé et Guizot",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541615,
+        "longitude": -73.633444
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2992,
+      "stationNb": "748",
+      "stationName": "Station-zone de Gaspé et Gounod",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.539807,
+        "longitude": -73.627139
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2991,
+      "stationNb": "747",
+      "stationName": "Station-zone St-Gérard et Gounod",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543458,
+        "longitude": -73.62511
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2990,
+      "stationNb": "746",
+      "stationName": "Station-zone St-Gérard et Faillon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541693,
+        "longitude": -73.619106
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2989,
+      "stationNb": "745",
+      "stationName": "Station-zone de la Roche et Everett",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.545241,
+        "longitude": -73.615836
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2988,
+      "stationNb": "744",
+      "stationName": "Station-zone Fabre et L.-O.-David",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549829,
+        "longitude": -73.614174
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2987,
+      "stationNb": "743",
+      "stationName": "Station-zone de Rouen et Leclaire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.558078,
+        "longitude": -73.539912
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2986,
+      "stationNb": "742",
+      "stationName": "Station-zone Adam et William-David",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.552815,
+        "longitude": -73.534259
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2985,
+      "stationNb": "741",
+      "stationName": "Station-zone Pierre-de-Coubertin et d'Orléans",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551467,
+        "longitude": -73.55167
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2984,
+      "stationNb": "740",
+      "stationName": "Station-zone de Rouen et d'Orléans",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549494,
+        "longitude": -73.545579
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2983,
+      "stationNb": "739",
+      "stationName": "Station-zone La Fontaine et d'Orléans",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.547409,
+        "longitude": -73.539753
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2982,
+      "stationNb": "738",
+      "stationName": "Papineau et Marie-Anne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.531625,
+        "longitude": -73.571312
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2981,
+      "stationNb": "737",
+      "stationName": "Station-zone Davidson et Hochelaga",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54492,
+        "longitude": -73.5526
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2980,
+      "stationNb": "736",
+      "stationName": "Station-zone Davidson et Ontario",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54298,
+        "longitude": -73.54613
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2978,
+      "stationNb": "735",
+      "stationName": "Notre-Dame O. et des Seigneurs (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.488042,
+        "longitude": -73.568834
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2975,
+      "stationNb": "733",
+      "stationName": "Station-zone St-Joseph E. et Bourbonnière",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55457,
+        "longitude": -73.563576
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2974,
+      "stationNb": "732",
+      "stationName": "Station-zone 5e Avenue et Laurier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54687,
+        "longitude": -73.573026
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2973,
+      "stationNb": "731",
+      "stationName": "Station-zone Holt et 4e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.548798,
+        "longitude": -73.581473
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2972,
+      "stationNb": "730",
+      "stationName": "Station-zone de Bellechasse et 3e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549983,
+        "longitude": -73.586561
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2970,
+      "stationNb": "728",
+      "stationName": "Station-zone des Carrières et Chabot",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54104,
+        "longitude": -73.587722
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2969,
+      "stationNb": "727",
+      "stationName": "Station-zone Bélanger et de Lanaudière",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54425,
+        "longitude": -73.605483
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2968,
+      "stationNb": "726",
+      "stationName": "Station-zone Beaubien E. et Fabre",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542016,
+        "longitude": -73.597831
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2967,
+      "stationNb": "725",
+      "stationName": "Station-zone Beaubien E. et de la Roche",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53883,
+        "longitude": -73.600961
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2966,
+      "stationNb": "724",
+      "stationName": "Station-zone métro Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535296,
+        "longitude": -73.604098
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2965,
+      "stationNb": "723",
+      "stationName": "Station-zone Beaubien E. et de Gaspé",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.532159,
+        "longitude": -73.606689
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2964,
+      "stationNb": "722",
+      "stationName": "Station-zone D'Iberville et Rachel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537124,
+        "longitude": -73.564171
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2963,
+      "stationNb": "721",
+      "stationName": "Station-zone De Lorimier et Marie-Anne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533832,
+        "longitude": -73.56966
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2962,
+      "stationNb": "720",
+      "stationName": "Station-zone De Lorimier et Gilford",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536282,
+        "longitude": -73.574944
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2961,
+      "stationNb": "719",
+      "stationName": "Station-zone Garnier et Gilford",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.531845,
+        "longitude": -73.578643
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2960,
+      "stationNb": "718",
+      "stationName": "Station-zone Garnier et Marie-Anne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529653,
+        "longitude": -73.573885
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2959,
+      "stationNb": "717",
+      "stationName": "Station-zone Cherrier et St-Christophe",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.520643,
+        "longitude": -73.568512
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2958,
+      "stationNb": "716",
+      "stationName": "Station-zone Duluth et St-Christophe",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522748,
+        "longitude": -73.573449
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2957,
+      "stationNb": "715",
+      "stationName": "Station-zone Marie-Anne et St-Christophe",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.525052,
+        "longitude": -73.579086
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2956,
+      "stationNb": "714",
+      "stationName": "Station-zone St-Hubert et Bienville",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527363,
+        "longitude": -73.583478
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2955,
+      "stationNb": "713",
+      "stationName": "Station-zone Boucher et St-Hubert",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529878,
+        "longitude": -73.589107
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2954,
+      "stationNb": "712",
+      "stationName": "Station-zone de Bullion et Villeneuve",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.523008,
+        "longitude": -73.587923
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2953,
+      "stationNb": "711",
+      "stationName": "Station-zone Casgrain et Maguire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.525911,
+        "longitude": -73.594555
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2952,
+      "stationNb": "710",
+      "stationName": "Station-zone Waverly et Van Horne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.526084,
+        "longitude": -73.606878
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2951,
+      "stationNb": "709",
+      "stationName": "Station-zone Waverly et St-Viateur",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.524852,
+        "longitude": -73.602287
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2950,
+      "stationNb": "708",
+      "stationName": "Station-zone de l'Esplanade et Villeneuve",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519519,
+        "longitude": -73.591151
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2949,
+      "stationNb": "707",
+      "stationName": "Station-zone Marie-Anne et Coloniale",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.520082,
+        "longitude": -73.583228
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2948,
+      "stationNb": "706",
+      "stationName": "Station-zone Coloniale et Duluth",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.517914,
+        "longitude": -73.578545
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2947,
+      "stationNb": "705",
+      "stationName": "Rockland et Bates",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519156,
+        "longitude": -73.622741
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2946,
+      "stationNb": "704",
+      "stationName": "Ducharme et Stuart",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.520525,
+        "longitude": -73.617631
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2945,
+      "stationNb": "703",
+      "stationName": "Station-zone Prince-Arthur et Coloniale",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.515283,
+        "longitude": -73.571374
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2944,
+      "stationNb": "702",
+      "stationName": "Station-zone Milton-Parc",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.509918,
+        "longitude": -73.574656
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2943,
+      "stationNb": "701",
+      "stationName": "Léonard-De Vinci et Everett",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.564465,
+        "longitude": -73.597276
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2822,
+      "stationNb": "700",
+      "stationName": "St-Dominique et de Maisonneuve E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.511827,
+        "longitude": -73.565111
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2809,
+      "stationNb": "697",
+      "stationName": "Station-zone Beaubien et 27e avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.56569,
+        "longitude": -73.577066
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2806,
+      "stationNb": "696",
+      "stationName": "Du Fort et Ste-Catherine O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.491654,
+        "longitude": -73.580862
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2791,
+      "stationNb": "695",
+      "stationName": "Station-zone Beaubien et De Lorimier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54653,
+        "longitude": -73.59409
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2789,
+      "stationNb": "694",
+      "stationName": "de la Côte-Vertu et Dutrisac",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.518075,
+        "longitude": -73.677299
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2786,
+      "stationNb": "693",
+      "stationName": "Beaumont et Fleet",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522092,
+        "longitude": -73.624684
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2785,
+      "stationNb": "692",
+      "stationName": "Jean-Brillon et Dollard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.42666,
+        "longitude": -73.624968
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2784,
+      "stationNb": "691",
+      "stationName": "Beaubien E et François-Boivin",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.591144,
+        "longitude": -73.557878
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2783,
+      "stationNb": "690",
+      "stationName": "de Choisy et Bélanger",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5831494434157,
+        "longitude": -73.5705970019927
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2780,
+      "stationNb": "689",
+      "stationName": "West Hill et Somerled",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4703409251389,
+        "longitude": -73.6366574448251
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2779,
+      "stationNb": "688",
+      "stationName": "Aréna Marcelin-Wilson",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536201,
+        "longitude": -73.684193
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2777,
+      "stationNb": "687",
+      "stationName": "Maison culturelle et communautaire de Cartierville",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529507,
+        "longitude": -73.715434
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2776,
+      "stationNb": "686",
+      "stationName": "St-Ambroise et St-Philippe",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.474314283575,
+        "longitude": -73.5816897355912
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2775,
+      "stationNb": "685",
+      "stationName": "Riverside et Lorne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.500084,
+        "longitude": -73.515903
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2769,
+      "stationNb": "684",
+      "stationName": "UQÀM - Pavillon des sciences biologiques (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.510155,
+        "longitude": -73.568052
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2758,
+      "stationNb": "683",
+      "stationName": "Ward et Alexis Nihon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.49758,
+        "longitude": -73.679958
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2752,
+      "stationNb": "681",
+      "stationName": "York et Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.47569,
+        "longitude": -73.600998
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2735,
+      "stationNb": "680",
+      "stationName": "1e Avenue et Beaubien E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54949,
+        "longitude": -73.589457
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2734,
+      "stationNb": "679",
+      "stationName": "Notre-Dame E. et 86e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.692698,
+        "longitude": -73.488202
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2729,
+      "stationNb": "678",
+      "stationName": "Sherbrooke E. et 31e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.6568661468855,
+        "longitude": -73.5089652728456
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2727,
+      "stationNb": "677",
+      "stationName": "Métro St-Laurent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.510126,
+        "longitude": -73.564714
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2722,
+      "stationNb": "676",
+      "stationName": "La Fayette et du Coteau-Rouge",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.514047,
+        "longitude": -73.498734
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2721,
+      "stationNb": "675",
+      "stationName": "Notre-Dame O. et Charlevoix",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.482409,
+        "longitude": -73.575776
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2709,
+      "stationNb": "674",
+      "stationName": "Collège de Rosemont",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.556339,
+        "longitude": -73.580651
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2705,
+      "stationNb": "673",
+      "stationName": "Côte-des-Neiges et Linton",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.499984622372,
+        "longitude": -73.6301955437795
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2703,
+      "stationNb": "672",
+      "stationName": "Duchesneau et Pierre-de-Coubertin",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.608825,
+        "longitude": -73.518978
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2700,
+      "stationNb": "671",
+      "stationName": "Station Monk",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4518364886609,
+        "longitude": -73.592943022
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2694,
+      "stationNb": "670",
+      "stationName": "St-Alexandre et Mayor",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.505804,
+        "longitude": -73.568888
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2693,
+      "stationNb": "669",
+      "stationName": "Nicolet et de Rouen (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.547662,
+        "longitude": -73.547805
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2692,
+      "stationNb": "668",
+      "stationName": "Valois et Hochelaga (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549328,
+        "longitude": -73.550898
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2691,
+      "stationNb": "667",
+      "stationName": "Nicolet et Hochelaga (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54944,
+        "longitude": -73.55382
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2690,
+      "stationNb": "666",
+      "stationName": "de Richelieu et Agnès",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.480855,
+        "longitude": -73.588402
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2683,
+      "stationNb": "665",
+      "stationName": "de Rouen et de Chambly",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54645,
+        "longitude": -73.547954
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2674,
+      "stationNb": "664",
+      "stationName": "St-Pierre et de la Commune O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.500304,
+        "longitude": -73.553106
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2667,
+      "stationNb": "663",
+      "stationName": "de Bellechasse et 12e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55436,
+        "longitude": -73.581945
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2666,
+      "stationNb": "662",
+      "stationName": "Jean-Talon E. et Christophe-Colomb",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542113,
+        "longitude": -73.611668
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2663,
+      "stationNb": "661",
+      "stationName": "Henri-Bourassa E. et De la Rousselière",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.668177,
+        "longitude": -73.505495
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2662,
+      "stationNb": "660",
+      "stationName": "St-André et de Bellechasse",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535392,
+        "longitude": -73.600175
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2656,
+      "stationNb": "659",
+      "stationName": "St-Marc et Lincoln",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4940133297288,
+        "longitude": -73.5822188968911
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2655,
+      "stationNb": "657",
+      "stationName": "Chabot et Crémazie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.555261,
+        "longitude": -73.619616
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2654,
+      "stationNb": "656",
+      "stationName": "Drolet et Crémazie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5452512830486,
+        "longitude": -73.6391042489495
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2653,
+      "stationNb": "655",
+      "stationName": "Casgrain et Crémazie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542588,
+        "longitude": -73.640283
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2645,
+      "stationNb": "651",
+      "stationName": "St-Patrick et Beaulieu",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.462483,
+        "longitude": -73.598862
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2644,
+      "stationNb": "650",
+      "stationName": "St-Ferdinand et Ste-Émilie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4756449751088,
+        "longitude": -73.5834774088545
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2635,
+      "stationNb": "649",
+      "stationName": "St-André et Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536094,
+        "longitude": -73.601432
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2632,
+      "stationNb": "648",
+      "stationName": "Yvette-Brillon et Elzéar Soucy",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533271,
+        "longitude": -73.665034
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2625,
+      "stationNb": "647",
+      "stationName": "Jeanne-Mance et des Pins",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.511929,
+        "longitude": -73.577502
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2624,
+      "stationNb": "646",
+      "stationName": "Cégep Édouard-Montpetit",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537249,
+        "longitude": -73.494704
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2623,
+      "stationNb": "645",
+      "stationName": "St-Mathieu et René-Lévesque O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.492085,
+        "longitude": -73.57582
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2622,
+      "stationNb": "644",
+      "stationName": "Préfontaine et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543304,
+        "longitude": -73.558152
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2621,
+      "stationNb": "643",
+      "stationName": "Parc Kirkland",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.445656,
+        "longitude": -73.648861
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2620,
+      "stationNb": "642",
+      "stationName": "Parc Francis-Daoust",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.439652,
+        "longitude": -73.664764
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2619,
+      "stationNb": "641",
+      "stationName": "Hôpital de Lachine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.44155,
+        "longitude": -73.677927
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2618,
+      "stationNb": "640",
+      "stationName": "Victoria et 25e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.435649,
+        "longitude": -73.685745
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2617,
+      "stationNb": "639",
+      "stationName": "Mairie d'arrondissement de Lachine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.433251,
+        "longitude": -73.680559
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2611,
+      "stationNb": "637",
+      "stationName": "Station-zone De Lorimier nord",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.538732,
+        "longitude": -73.581007
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2609,
+      "stationNb": "635",
+      "stationName": "Clanranald et Queen-Mary",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4806441447239,
+        "longitude": -73.6301498680537
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2607,
+      "stationNb": "633",
+      "stationName": "Milton et Lorne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.506921,
+        "longitude": -73.576125
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2604,
+      "stationNb": "632",
+      "stationName": "Station-zone Laurier-est",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535254,
+        "longitude": -73.585036
+      },
+      "hasZone": true
+    },
+    {
+      "stationId": 2602,
+      "stationNb": "631",
+      "stationName": "Stationnement incitatif Chevrier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.457203,
+        "longitude": -73.441783
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2600,
+      "stationNb": "630",
+      "stationName": "Communauto, 5800 rue St-Denis",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529713,
+        "longitude": -73.598029
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2599,
+      "stationNb": "629",
+      "stationName": "Alexis Nihon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.488622,
+        "longitude": -73.587456
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2596,
+      "stationNb": "627",
+      "stationName": "de la Côte-Vertu et Hocquart",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5006640883112,
+        "longitude": -73.7004318443092
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2587,
+      "stationNb": "625",
+      "stationName": "St-Urbain et St-Joseph O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52048,
+        "longitude": -73.591925
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2584,
+      "stationNb": "622",
+      "stationName": "Cherrier et St-Denis",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.518803,
+        "longitude": -73.569952
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2583,
+      "stationNb": "621",
+      "stationName": "Roy et St-Denis",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519484,
+        "longitude": -73.572017
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2578,
+      "stationNb": "620",
+      "stationName": "Métro Namur",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.495162,
+        "longitude": -73.653241
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2577,
+      "stationNb": "619",
+      "stationName": "Montcalm et Robin",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5201528473439,
+        "longitude": -73.5605988513177
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2575,
+      "stationNb": "618",
+      "stationName": "Georges-Bizet et Notre-Dame E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.590505,
+        "longitude": -73.510685
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2574,
+      "stationNb": "617",
+      "stationName": "de Champlain et Ontario E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.524823145081,
+        "longitude": -73.5587116068546
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2559,
+      "stationNb": "616",
+      "stationName": "Claude-Legault et des Tulipes",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.6086749703306,
+        "longitude": -73.6263983813709
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2531,
+      "stationNb": "615",
+      "stationName": "Molson et William-Tremblay",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541334,
+        "longitude": -73.564627
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2530,
+      "stationNb": "614",
+      "stationName": "Carrefour Angrignon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.446895,
+        "longitude": -73.611175
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2524,
+      "stationNb": "613",
+      "stationName": "Trans Island et Queen-Mary",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.484968,
+        "longitude": -73.629742
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2490,
+      "stationNb": "612",
+      "stationName": "4e Avenue et Gilford (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5452747596286,
+        "longitude": -73.56923589765
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2488,
+      "stationNb": "611",
+      "stationName": "de Sève et Angers",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.456045,
+        "longitude": -73.583867
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2487,
+      "stationNb": "610",
+      "stationName": "Allard et Viola-Desmond",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.44987,
+        "longitude": -73.605451
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2485,
+      "stationNb": "609",
+      "stationName": "Solar Uniquartier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.447324,
+        "longitude": -73.429015
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2484,
+      "stationNb": "608",
+      "stationName": "Champagneur et Thérèse-Lavoie-Roux (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52347,
+        "longitude": -73.61716
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2483,
+      "stationNb": "607",
+      "stationName": "Adalbert et Earle",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.462785,
+        "longitude": -73.656852
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2480,
+      "stationNb": "606",
+      "stationName": "de Bretonvilliers et Chabanel E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55993,
+        "longitude": -73.641559
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2478,
+      "stationNb": "604",
+      "stationName": "Des Érables et Jean-Talon E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551196,
+        "longitude": -73.605562
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2477,
+      "stationNb": "603",
+      "stationName": "Victoria et Paré",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.500137,
+        "longitude": -73.649527
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2465,
+      "stationNb": "0000",
+      "stationName": "Shearer et Centre",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.483227,
+        "longitude": -73.562275
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2464,
+      "stationNb": "601",
+      "stationName": "Queen-Mary et Lemieux",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4865282834409,
+        "longitude": -73.6262642694231
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2463,
+      "stationNb": "600",
+      "stationName": "Melrose et Champlain",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4539946281747,
+        "longitude": -73.5797454680773
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2456,
+      "stationNb": "598",
+      "stationName": "Bloomfield et Van Horne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52273,
+        "longitude": -73.613727
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2452,
+      "stationNb": "597",
+      "stationName": "Métro Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.51859,
+        "longitude": -73.56772
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2444,
+      "stationNb": "596",
+      "stationName": "Stade Jarry",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.532742,
+        "longitude": -73.624741
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2438,
+      "stationNb": "595",
+      "stationName": "Pine et Grande-Allée",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.49114,
+        "longitude": -73.46718
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2437,
+      "stationNb": "594",
+      "stationName": "Valmont et Viel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542152,
+        "longitude": -73.696758
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2433,
+      "stationNb": "592",
+      "stationName": "Gareau et de Champlain (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521343,
+        "longitude": -73.552921
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2431,
+      "stationNb": "591",
+      "stationName": "De Courtrai et Trans Island",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.493547,
+        "longitude": -73.649128
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2430,
+      "stationNb": "590",
+      "stationName": "Gatineau et Queen-Mary",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.49582,
+        "longitude": -73.619069
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2427,
+      "stationNb": "589",
+      "stationName": "Vincent-D'Indy et Côte-Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.511397,
+        "longitude": -73.613602
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2426,
+      "stationNb": "588",
+      "stationName": "Jeanne-Mance et St-Viateur",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.523324,
+        "longitude": -73.601779
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2425,
+      "stationNb": "587",
+      "stationName": "Dollard et Crémazie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.523617,
+        "longitude": -73.503266
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2424,
+      "stationNb": "586",
+      "stationName": "Métro Place des Arts",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.508152,
+        "longitude": -73.569346
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2423,
+      "stationNb": "585",
+      "stationName": "Tiffin et Smiley",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.514355,
+        "longitude": -73.510442
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2417,
+      "stationNb": "584",
+      "stationName": "Maison culturelle et communautaire Mtl-Nord",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.615927,
+        "longitude": -73.621524
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2416,
+      "stationNb": "583",
+      "stationName": "Parc Sauvé",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.598811,
+        "longitude": -73.635451
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2406,
+      "stationNb": "582",
+      "stationName": "7e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549121,
+        "longitude": -73.575078
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2405,
+      "stationNb": "581",
+      "stationName": "Notre-Dame O. et de l'Inspecteur",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.496986,
+        "longitude": -73.562372
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2381,
+      "stationNb": "579",
+      "stationName": "St-Sylvestre et Saint-Charles O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537399,
+        "longitude": -73.514813
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2380,
+      "stationNb": "578",
+      "stationName": "Cégep Marie-Victorin",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.616987,
+        "longitude": -73.606926
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2376,
+      "stationNb": "577",
+      "stationName": "Metcalfe et de Maisonneuve O.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.501843,
+        "longitude": -73.573557
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2371,
+      "stationNb": "575",
+      "stationName": "St-Joseph O. et Jeanne-Mance",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519636,
+        "longitude": -73.594195
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2370,
+      "stationNb": "574",
+      "stationName": "Éthel et de l'Église",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4637,
+        "longitude": -73.568001
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2369,
+      "stationNb": "573",
+      "stationName": "Montpellier et de la Côte-Vertu",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.520246,
+        "longitude": -73.672832
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2345,
+      "stationNb": "572",
+      "stationName": "Joffre et Notre-Dame E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.600926,
+        "longitude": -73.513418
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2344,
+      "stationNb": "571",
+      "stationName": "Berri et de Louvain E.",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549624,
+        "longitude": -73.650671
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2343,
+      "stationNb": "570",
+      "stationName": "5800, St-Denis",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529956,
+        "longitude": -73.597373
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2339,
+      "stationNb": "569",
+      "stationName": "Place Longueuil",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527913,
+        "longitude": -73.513774
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2336,
+      "stationNb": "568",
+      "stationName": "12e Avenue et Laurier (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.550856,
+        "longitude": -73.57024
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2335,
+      "stationNb": "567",
+      "stationName": "St-André et Rosemont (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533904,
+        "longitude": -73.596218
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2334,
+      "stationNb": "566",
+      "stationName": "Boyer et des Carrières (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533354,
+        "longitude": -73.593895
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2333,
+      "stationNb": "565",
+      "stationName": "Des Carrières et St-Denis (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.530005,
+        "longitude": -73.596785
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2329,
+      "stationNb": "564",
+      "stationName": "De Castelnau E. et Lajeunesse (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.540364,
+        "longitude": -73.616167
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2328,
+      "stationNb": "563",
+      "stationName": "St-Gérard et Villeray (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542529,
+        "longitude": -73.622004
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2327,
+      "stationNb": "562",
+      "stationName": "De Gaspé et Gounod (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.539818,
+        "longitude": -73.627029
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2326,
+      "stationNb": "561",
+      "stationName": "St-Dominique et Villeray (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537821,
+        "longitude": -73.624912
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2325,
+      "stationNb": "560",
+      "stationName": "Marquette et Everett (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.548775,
+        "longitude": -73.610947
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2324,
+      "stationNb": "559",
+      "stationName": "Molson et Everett (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55526,
+        "longitude": -73.60364
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2323,
+      "stationNb": "558",
+      "stationName": "Fabre et Villeray (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54993,
+        "longitude": -73.615421
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2322,
+      "stationNb": "557",
+      "stationName": "De Normanville et Everett (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.545518,
+        "longitude": -73.61441
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2321,
+      "stationNb": "556",
+      "stationName": "St-Gérard et Jarry (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.544293,
+        "longitude": -73.627884
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2320,
+      "stationNb": "555",
+      "stationName": "De Liège et de Gaspé (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542643,
+        "longitude": -73.636531
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2319,
+      "stationNb": "554",
+      "stationName": "D'Outremont et Jarry (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529667,
+        "longitude": -73.636361
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2317,
+      "stationNb": "552",
+      "stationName": "Wiseman et Saint-Roch (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527273,
+        "longitude": -73.630439
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2315,
+      "stationNb": "551",
+      "stationName": "Métro Parc (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529856,
+        "longitude": -73.623211
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2309,
+      "stationNb": "549",
+      "stationName": "Metro Berri-UQAM",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5163141619924,
+        "longitude": -73.5610505614092
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2301,
+      "stationNb": "548",
+      "stationName": "La Fayette et Benjamin-Constant",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.517869,
+        "longitude": -73.510812
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2294,
+      "stationNb": "547",
+      "stationName": "Sherbrooke et Viau",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.566028,
+        "longitude": -73.552968
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2284,
+      "stationNb": "546",
+      "stationName": "2642, Chemin de Chambly",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522703,
+        "longitude": -73.466109
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2283,
+      "stationNb": "545",
+      "stationName": "3600, Place St-Joseph",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551918,
+        "longitude": -73.565312
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2282,
+      "stationNb": "544",
+      "stationName": "Samuel-de-Champlain et Albanel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.601374,
+        "longitude": -73.44393
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2224,
+      "stationNb": "543",
+      "stationName": "D'Auteuil et Sauvé",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.550516,
+        "longitude": -73.660617
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2194,
+      "stationNb": "542",
+      "stationName": "Rosemont et de la Roche",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535609,
+        "longitude": -73.595424
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2191,
+      "stationNb": "541",
+      "stationName": "Hochelaga et Honoré-Beaugrand",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.593661,
+        "longitude": -73.524471
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 2183,
+      "stationNb": "539",
+      "stationName": "Centre Commercial Côte St-Luc",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.46601,
+        "longitude": -73.653702
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1788,
+      "stationNb": "536",
+      "stationName": "Aréna Rodrigue-Gilbert",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.651557,
+        "longitude": -73.500668
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1787,
+      "stationNb": "537",
+      "stationName": "Hôtel de Ville de Côte Saint-Luc",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.478469,
+        "longitude": -73.663026
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1784,
+      "stationNb": "535",
+      "stationName": "Aird et Hochelaga (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.557804,
+        "longitude": -73.544357
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1780,
+      "stationNb": "533",
+      "stationName": "St-Vallier et Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535756,
+        "longitude": -73.605613
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1779,
+      "stationNb": "532",
+      "stationName": "Montcalm et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521898,
+        "longitude": -73.564258
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1729,
+      "stationNb": "531",
+      "stationName": "Eleanor et William (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.493146,
+        "longitude": -73.562267
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1701,
+      "stationNb": "530",
+      "stationName": "Pie-IX et Bélanger",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.565245,
+        "longitude": -73.587614
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1698,
+      "stationNb": "528",
+      "stationName": "Chénier et de l'Église",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.602502,
+        "longitude": -73.543968
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1694,
+      "stationNb": "527",
+      "stationName": "10526, Boulevard de l'Acadie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.532656,
+        "longitude": -73.678776
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1693,
+      "stationNb": "526",
+      "stationName": "Dollard et Bertrand",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522885,
+        "longitude": -73.501401
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1281,
+      "stationNb": "525",
+      "stationName": "Frontenac et Mont-Royal",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.539218,
+        "longitude": -73.567105
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1277,
+      "stationNb": "524",
+      "stationName": "2502, rue Nicolet",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.548488,
+        "longitude": -73.551011
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1272,
+      "stationNb": "523",
+      "stationName": "Milton et St-Urbain",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.511202,
+        "longitude": -73.571444
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1256,
+      "stationNb": "520",
+      "stationName": "Émile-Journault et André-Grasset",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.557821,
+        "longitude": -73.635529
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1189,
+      "stationNb": "518",
+      "stationName": "Centre Sablon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.531117,
+        "longitude": -73.570275
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1176,
+      "stationNb": "516",
+      "stationName": "Darling et de Rouen",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543969,
+        "longitude": -73.551591
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1174,
+      "stationNb": "514",
+      "stationName": "Bibliothèque Émile-Nelligan",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.552198,
+        "longitude": -73.707398
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1173,
+      "stationNb": "513",
+      "stationName": "D'Iberville et Jourdain",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.544623,
+        "longitude": -73.582429
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1169,
+      "stationNb": "512",
+      "stationName": "Parc Ladauversière",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.580727,
+        "longitude": -73.584329
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1168,
+      "stationNb": "511",
+      "stationName": "Sauvé et St-Laurent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5477175,
+        "longitude": -73.6573048
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1166,
+      "stationNb": "510",
+      "stationName": "Sauvé et St-Hubert",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.554696,
+        "longitude": -73.653813
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1157,
+      "stationNb": "509",
+      "stationName": "7000, avenue du Parc",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529271,
+        "longitude": -73.619947
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1153,
+      "stationNb": "508",
+      "stationName": "Victoria et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.479151,
+        "longitude": -73.604426
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1151,
+      "stationNb": "507",
+      "stationName": "Dandurand et D'Iberville (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.544497,
+        "longitude": -73.580869
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1150,
+      "stationNb": "506",
+      "stationName": "Dandurand et Chapleau (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54387,
+        "longitude": -73.581335
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1145,
+      "stationNb": "505",
+      "stationName": "Mail Champlain",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.472019,
+        "longitude": -73.473666
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1115,
+      "stationNb": "504",
+      "stationName": "Madison et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.465774,
+        "longitude": -73.624458
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1114,
+      "stationNb": "503",
+      "stationName": "St-Michel et Fleury",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.579338,
+        "longitude": -73.642151
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1088,
+      "stationNb": "502",
+      "stationName": "St-Urbain et Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533917,
+        "longitude": -73.620067
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1087,
+      "stationNb": "501",
+      "stationName": "D'Outremont et Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.526295,
+        "longitude": -73.624279
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1083,
+      "stationNb": "500",
+      "stationName": "Le Campanile",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.467925,
+        "longitude": -73.541765
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1054,
+      "stationNb": "498",
+      "stationName": "Rosemont et Christophe-Colomb",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535088,
+        "longitude": -73.596636
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1046,
+      "stationNb": "496",
+      "stationName": "Gouin et Taché",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5669783,
+        "longitude": -73.6616577
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1037,
+      "stationNb": "495",
+      "stationName": "Lesage et Hickson",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.465714,
+        "longitude": -73.578555
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1036,
+      "stationNb": "494",
+      "stationName": "Molson et St-Joseph (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54301,
+        "longitude": -73.574871
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1035,
+      "stationNb": "493",
+      "stationName": "Sherbrooke et Fletcher",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.611426,
+        "longitude": -73.5274765
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1034,
+      "stationNb": "492",
+      "stationName": "D'Orléans et Ontario",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.548695,
+        "longitude": -73.542018
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1028,
+      "stationNb": "491",
+      "stationName": "Empire et Churchill",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.49218922,
+        "longitude": -73.4882418
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1017,
+      "stationNb": "487",
+      "stationName": "Resther et St-Grégoire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.530146,
+        "longitude": -73.591886
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1016,
+      "stationNb": "489",
+      "stationName": "Quai King-Edward",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.504894,
+        "longitude": -73.550281
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1015,
+      "stationNb": "488",
+      "stationName": "Parc Grovehill",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.441815,
+        "longitude": -73.694376
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1011,
+      "stationNb": "486",
+      "stationName": "Nicolet et La Fontaine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.546374,
+        "longitude": -73.542546
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1010,
+      "stationNb": "485",
+      "stationName": "De Chambly et Le Moyne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536443,
+        "longitude": -73.498904
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1009,
+      "stationNb": "484",
+      "stationName": "Du Parc et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.50852,
+        "longitude": -73.572575
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1002,
+      "stationNb": "482",
+      "stationName": "Young et Wellington (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.492375,
+        "longitude": -73.556998
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 1001,
+      "stationNb": "480",
+      "stationName": "Jean-Talon et De La Roche",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543303,
+        "longitude": -73.610986
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 999,
+      "stationNb": "478",
+      "stationName": "Des Laurentides et Tourangeau",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.565961,
+        "longitude": -73.688074
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 996,
+      "stationNb": "462",
+      "stationName": "Masson et Molson",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543685,
+        "longitude": -73.577327
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 995,
+      "stationNb": "456",
+      "stationName": "De Lorimier et Fleury",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.570873,
+        "longitude": -73.65099
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 993,
+      "stationNb": "475",
+      "stationName": "Favard et Bourgeoys (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.480027,
+        "longitude": -73.55609
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 992,
+      "stationNb": "474",
+      "stationName": "Knox et Charlevoix (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.476282,
+        "longitude": -73.565039
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 991,
+      "stationNb": "473",
+      "stationName": "Turgeon et St-Ambroise (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.477152,
+        "longitude": -73.578296
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 990,
+      "stationNb": "472",
+      "stationName": "Sq-Sr-George-Ét-Cartier/St-Ambroise (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.472089,
+        "longitude": -73.584392
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 989,
+      "stationNb": "471",
+      "stationName": "Lenoir et St-Antoine (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.476313,
+        "longitude": -73.591882
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 988,
+      "stationNb": "470",
+      "stationName": "Angers et Galt (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.462603,
+        "longitude": -73.584728
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 987,
+      "stationNb": "469",
+      "stationName": "Le Caron et Eadie (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.46197,
+        "longitude": -73.589972
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 986,
+      "stationNb": "468",
+      "stationName": "De Maricourt et Angers (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.457855,
+        "longitude": -73.585403
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 985,
+      "stationNb": "467",
+      "stationName": "Émard et Laurendeau (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.454868,
+        "longitude": -73.589
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 984,
+      "stationNb": "466",
+      "stationName": "Mazarin et Springland (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.452867,
+        "longitude": -73.60022
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 966,
+      "stationNb": "465",
+      "stationName": "Place Fleury",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.567668,
+        "longitude": -73.655148
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 965,
+      "stationNb": "464",
+      "stationName": "Galeries Normandie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537809,
+        "longitude": -73.699112
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 964,
+      "stationNb": "463",
+      "stationName": "Centre Domaine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.580971,
+        "longitude": -73.542792
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 963,
+      "stationNb": "455",
+      "stationName": "Pierre-De Coubertin et Lacordaire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.571925,
+        "longitude": -73.540907
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 953,
+      "stationNb": "460",
+      "stationName": "Aréna Martin-Brodeur",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.584679,
+        "longitude": -73.597948
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 952,
+      "stationNb": "459",
+      "stationName": "Parc Mohawk",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521044,
+        "longitude": -73.636995
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 951,
+      "stationNb": "454",
+      "stationName": "St-Denis et St-Zotique",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536663,
+        "longitude": -73.609759
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 950,
+      "stationNb": "458",
+      "stationName": "De l'Esplanade et Fairmount (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521703,
+        "longitude": -73.59622
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 946,
+      "stationNb": "457",
+      "stationName": "St-Maurice et St-Henri",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4993011,
+        "longitude": -73.5593358
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 944,
+      "stationNb": "452",
+      "stationName": "Everett et 9e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.558441,
+        "longitude": -73.601138
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 941,
+      "stationNb": "451",
+      "stationName": "Hillside Lane et Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.482626,
+        "longitude": -73.59048
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 940,
+      "stationNb": "450",
+      "stationName": "Melville et Melbourne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.482769,
+        "longitude": -73.59744
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 939,
+      "stationNb": "449",
+      "stationName": "De La Roche et Fleury",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.558771,
+        "longitude": -73.65817
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 935,
+      "stationNb": "447",
+      "stationName": "De Lorimier et Curé-Poirier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.514019,
+        "longitude": -73.4898
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 933,
+      "stationNb": "446",
+      "stationName": "Collège de Bois-de-Boulogne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537207,
+        "longitude": -73.67443
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 929,
+      "stationNb": "445",
+      "stationName": "Chomedey et Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.491377,
+        "longitude": -73.58303
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 928,
+      "stationNb": "444",
+      "stationName": "De Chateaubriand et Crémazie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.548532,
+        "longitude": -73.63572
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 927,
+      "stationNb": "443",
+      "stationName": "Berri et Crémazie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.545997,
+        "longitude": -73.6381
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 925,
+      "stationNb": "441",
+      "stationName": "Denis-Papin et 10e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.568128,
+        "longitude": -73.62219
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 921,
+      "stationNb": "437",
+      "stationName": "Théodore et de Rouen (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.558824,
+        "longitude": -73.5398
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 920,
+      "stationNb": "436",
+      "stationName": "Sicard et Ontario (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.556232,
+        "longitude": -73.53712
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 919,
+      "stationNb": "435",
+      "stationName": "William-David et Adam (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.553063,
+        "longitude": -73.53483
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 918,
+      "stationNb": "434",
+      "stationName": "Desjardins et Hochelaga (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.553508,
+        "longitude": -73.54833
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 917,
+      "stationNb": "433",
+      "stationName": "Valois et Adam (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.545971,
+        "longitude": -73.53981
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 916,
+      "stationNb": "432",
+      "stationName": "Aylwin et Adam (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543096,
+        "longitude": -73.5413
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 915,
+      "stationNb": "431",
+      "stationName": "Aylwin et Ontario (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.544197,
+        "longitude": -73.54518
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 914,
+      "stationNb": "430",
+      "stationName": "St-Germain et Adam (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.540568,
+        "longitude": -73.54313
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 913,
+      "stationNb": "429",
+      "stationName": "Stanley et René-Lévesque",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.497673,
+        "longitude": -73.5708
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 912,
+      "stationNb": "438",
+      "stationName": "De la Pointe-Nord et Jacques-le-Ber",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.472587,
+        "longitude": -73.538491
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 911,
+      "stationNb": "426",
+      "stationName": "Bassins et du Séminaire (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.489734,
+        "longitude": -73.56115
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 910,
+      "stationNb": "427",
+      "stationName": "De Chateaubriand et Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535913,
+        "longitude": -73.60406
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 909,
+      "stationNb": "428",
+      "stationName": "Winnipeg et Ontario",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541619,
+        "longitude": -73.5454
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 907,
+      "stationNb": "421",
+      "stationName": "Ann et William",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.495543,
+        "longitude": -73.55958
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 906,
+      "stationNb": "425",
+      "stationName": "Mercier et Birch",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.501183,
+        "longitude": -73.504447
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 905,
+      "stationNb": "424",
+      "stationName": "Métro de la Concorde",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.56023,
+        "longitude": -73.709319
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 904,
+      "stationNb": "423",
+      "stationName": "Terminus De Montarville",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.600599,
+        "longitude": -73.450319
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 903,
+      "stationNb": "422",
+      "stationName": "Notre-Dame et Green",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.502256,
+        "longitude": -73.511373
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 902,
+      "stationNb": "420",
+      "stationName": "Parc Giuseppe-Garibaldi",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.585708,
+        "longitude": -73.572113
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 900,
+      "stationNb": "419",
+      "stationName": "D'Iberville et Sherbrooke (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536019,
+        "longitude": -73.56147
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 899,
+      "stationNb": "418",
+      "stationName": "De Mentana et St-Joseph (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529367,
+        "longitude": -73.5853
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 894,
+      "stationNb": "416",
+      "stationName": "1re Avenue et Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.554603,
+        "longitude": -73.60003
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 893,
+      "stationNb": "415",
+      "stationName": "Hôtel-de-Ville et René-Lévesque",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.510603,
+        "longitude": -73.559126
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 892,
+      "stationNb": "414",
+      "stationName": "De La Gauchetière et St-Hubert",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.51427,
+        "longitude": -73.555122
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 887,
+      "stationNb": "413",
+      "stationName": "Bélanger et De Lorimier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.548356,
+        "longitude": -73.601458
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 883,
+      "stationNb": "412",
+      "stationName": "Canning et Terrasse Coursol",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.489005,
+        "longitude": -73.5757
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 880,
+      "stationNb": "411",
+      "stationName": "St-Laurent et Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.534989,
+        "longitude": -73.619334
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 876,
+      "stationNb": "410",
+      "stationName": "Église Saint-Vincent-Ferrier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54164,
+        "longitude": -73.630591
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 874,
+      "stationNb": "403",
+      "stationName": "Christophe-Colomb et St-Joseph (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.530075,
+        "longitude": -73.583873
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 873,
+      "stationNb": "404",
+      "stationName": "De l’Hôtel-de-Ville et des Pins (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.51699,
+        "longitude": -73.573699
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 872,
+      "stationNb": "405",
+      "stationName": "Chapleau et Sherbrooke (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535286,
+        "longitude": -73.561828
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 871,
+      "stationNb": "402",
+      "stationName": "Jeanne-Mance et St-Joseph (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519652,
+        "longitude": -73.593568
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 870,
+      "stationNb": "406",
+      "stationName": "Hogan et Sherbrooke (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.538631,
+        "longitude": -73.56036
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 869,
+      "stationNb": "401",
+      "stationName": "St-Dominique et Roy (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.515903,
+        "longitude": -73.575646
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 868,
+      "stationNb": "407",
+      "stationName": "St-Hubert et Boucher (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529951,
+        "longitude": -73.590246
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 867,
+      "stationNb": "408",
+      "stationName": "Cartier et St-Joseph (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536017,
+        "longitude": -73.579023
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 865,
+      "stationNb": "409",
+      "stationName": "Messier et Sherbrooke (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533101,
+        "longitude": -73.562518
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 863,
+      "stationNb": "396",
+      "stationName": "Rivard et Laurier (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527281,
+        "longitude": -73.58852
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 862,
+      "stationNb": "395",
+      "stationName": "Marie-Anne et Boyer (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52626,
+        "longitude": -73.577583
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 861,
+      "stationNb": "397",
+      "stationName": "Laval et Prince-Arthur (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.516292,
+        "longitude": -73.570711
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 860,
+      "stationNb": "394",
+      "stationName": "St-Hubert et Duluth (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522461,
+        "longitude": -73.574081
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 859,
+      "stationNb": "398",
+      "stationName": "De Bullion et Sherbrooke (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.514115,
+        "longitude": -73.569075
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 857,
+      "stationNb": "393",
+      "stationName": "Fullum et Terrasse Guindon (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537022,
+        "longitude": -73.569072
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 856,
+      "stationNb": "392",
+      "stationName": "Laurier et Parthenais (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.539062,
+        "longitude": -73.57748
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 853,
+      "stationNb": "389",
+      "stationName": "Laval et Roy (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.517749,
+        "longitude": -73.574127
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 852,
+      "stationNb": "388",
+      "stationName": "De Bullion et Rachel (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519235,
+        "longitude": -73.580061
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 851,
+      "stationNb": "385",
+      "stationName": "Duluth et St-Urbain (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.515934,
+        "longitude": -73.580316
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 850,
+      "stationNb": "386",
+      "stationName": "De Mentana et Gilford (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.528718,
+        "longitude": -73.583739
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 849,
+      "stationNb": "384",
+      "stationName": "Clark et Villeneuve (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521011,
+        "longitude": -73.589882
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 848,
+      "stationNb": "383",
+      "stationName": "Maguire et De Gaspé (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52607,
+        "longitude": -73.594457
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 847,
+      "stationNb": "387",
+      "stationName": "Coloniale et Marie-Anne (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519939,
+        "longitude": -73.583128
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 846,
+      "stationNb": "390",
+      "stationName": "Pontiac et De Bienville (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.525975,
+        "longitude": -73.58351
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 845,
+      "stationNb": "391",
+      "stationName": "Du Carmel et Drolet (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.528346,
+        "longitude": -73.594416
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 841,
+      "stationNb": "380",
+      "stationName": "Berri et Rachel (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522653,
+        "longitude": -73.577006
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 840,
+      "stationNb": "379",
+      "stationName": "Messier et St-Joseph (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.539066,
+        "longitude": -73.575532
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 839,
+      "stationNb": "378",
+      "stationName": "De La Roche et St-Joseph (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.531125,
+        "longitude": -73.583653
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 838,
+      "stationNb": "377",
+      "stationName": "St-Urbain et St-Viateur (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.524863,
+        "longitude": -73.600515
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 837,
+      "stationNb": "376",
+      "stationName": "Azilda et de Chaumont",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.610545,
+        "longitude": -73.548151
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 835,
+      "stationNb": "374",
+      "stationName": "Des Jalesnes et des Galeries-d'Anjou",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.593255,
+        "longitude": -73.553611
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 832,
+      "stationNb": "372",
+      "stationName": "Hutchison et Prince-Arthur (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.509687,
+        "longitude": -73.576108
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 831,
+      "stationNb": "371",
+      "stationName": "Aylmer et Prince-Arthur (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.508569,
+        "longitude": -73.577771
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 830,
+      "stationNb": "370",
+      "stationName": "Aylmer et Milton (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.507494,
+        "longitude": -73.575241
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 827,
+      "stationNb": "368",
+      "stationName": "Chambord et St-Grégoire (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.534773,
+        "longitude": -73.588111
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 826,
+      "stationNb": "367",
+      "stationName": "Alma et Mozart (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535608,
+        "longitude": -73.613584
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 825,
+      "stationNb": "366",
+      "stationName": "Casgrain et Shamrock (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5351254,
+        "longitude": -73.6157034
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 822,
+      "stationNb": "364",
+      "stationName": "De l'Esplanade et Rachel (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.516191,
+        "longitude": -73.583257
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 821,
+      "stationNb": "363",
+      "stationName": "De Lanaudière et Laurier (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.533339,
+        "longitude": -73.583613
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 820,
+      "stationNb": "362",
+      "stationName": "De Lorimier et Sherbrooke (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.531045,
+        "longitude": -73.56385
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 819,
+      "stationNb": "361",
+      "stationName": "Messier et Marie-Anne (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535834,
+        "longitude": -73.568271
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 818,
+      "stationNb": "360",
+      "stationName": "De l'Esplanade et Mont-Royal (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.518223,
+        "longitude": -73.58821
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 817,
+      "stationNb": "359",
+      "stationName": "Hutchison et Mont-Royal (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.516341,
+        "longitude": -73.589962
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 816,
+      "stationNb": "358",
+      "stationName": "Fairmount et Hutchison (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.519717,
+        "longitude": -73.598299
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 815,
+      "stationNb": "357",
+      "stationName": "Hutchison et St-Viateur (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521421,
+        "longitude": -73.602599
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 814,
+      "stationNb": "356",
+      "stationName": "De l'Esplanade et Van Horne (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.526748,
+        "longitude": -73.608411
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 807,
+      "stationNb": "355",
+      "stationName": "Richardson et de la Sucrerie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.484561,
+        "longitude": -73.561307
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 805,
+      "stationNb": "353",
+      "stationName": "Dutrisac et Tassé",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522039,
+        "longitude": -73.683501
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 799,
+      "stationNb": "352",
+      "stationName": "Montarville et De Gentilly",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.528979,
+        "longitude": -73.501761
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 794,
+      "stationNb": "350",
+      "stationName": "Métro Côte-Vertu",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.512849,
+        "longitude": -73.683042
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 786,
+      "stationNb": "345",
+      "stationName": "Notre-Dame et St-Jean-Baptiste",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.64083,
+        "longitude": -73.490766
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 785,
+      "stationNb": "347",
+      "stationName": "Des Érables et Mont-Royal",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536402,
+        "longitude": -73.573567
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 691,
+      "stationNb": "344",
+      "stationName": "Terminus Panama",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.466126,
+        "longitude": -73.472368
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 687,
+      "stationNb": "343",
+      "stationName": "Métro Henri-Bourassa",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5568586,
+        "longitude": -73.6665983
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 686,
+      "stationNb": "342",
+      "stationName": "Lajeunesse et Henri-Bourassa",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55475,
+        "longitude": -73.667037
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 685,
+      "stationNb": "341",
+      "stationName": "Tassé et Grenet",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.514861,
+        "longitude": -73.691008
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 684,
+      "stationNb": "340",
+      "stationName": "Henri-Julien et l'ENAP",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52317,
+        "longitude": -73.585202
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 683,
+      "stationNb": "339",
+      "stationName": "Richard et de Verdun",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.448509,
+        "longitude": -73.573102
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 682,
+      "stationNb": "338",
+      "stationName": "Charlemagne et de Rouen (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549744,
+        "longitude": -73.544584
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 681,
+      "stationNb": "337",
+      "stationName": "St-Elzéar et Bédard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.603964,
+        "longitude": -73.727729
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 675,
+      "stationNb": "336",
+      "stationName": "Métro Montmorency",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.557839,
+        "longitude": -73.720579
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 670,
+      "stationNb": "332",
+      "stationName": "Milton et St-Laurent (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.512717,
+        "longitude": -73.570539
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 669,
+      "stationNb": "331",
+      "stationName": "Parc-Lafontaine et Rachel (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.525396,
+        "longitude": -73.574411
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 663,
+      "stationNb": "329",
+      "stationName": "Tillemont et D'Iberville",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55743,
+        "longitude": -73.611171
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 662,
+      "stationNb": "330",
+      "stationName": "Holt et des Érables",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543004,
+        "longitude": -73.585598
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 661,
+      "stationNb": "328",
+      "stationName": "Rivard et Duluth",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.520805,
+        "longitude": -73.574787
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 657,
+      "stationNb": "327",
+      "stationName": "Île-des-Sœurs et Berlioz",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4603124,
+        "longitude": -73.5449575
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 656,
+      "stationNb": "324",
+      "stationName": "De Lanaudière et St-Joseph",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.532237,
+        "longitude": -73.580923
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 648,
+      "stationNb": "322",
+      "stationName": "Stade Olympique",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.558147,
+        "longitude": -73.549265
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 644,
+      "stationNb": "317",
+      "stationName": "21e Avenue et Rosemont",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.560234,
+        "longitude": -73.576023
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 643,
+      "stationNb": "320",
+      "stationName": "Place Ville Marie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.501363,
+        "longitude": -73.569886
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 636,
+      "stationNb": "319",
+      "stationName": "Complexe Desjardins (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.507326,
+        "longitude": -73.564442
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 629,
+      "stationNb": "316",
+      "stationName": "Hudson et de Kent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.506118,
+        "longitude": -73.629256
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 627,
+      "stationNb": "308",
+      "stationName": "De Châteauguay et Ropery",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.478784,
+        "longitude": -73.566899
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 622,
+      "stationNb": "312",
+      "stationName": "Plessis et Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.520523,
+        "longitude": -73.555133
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 621,
+      "stationNb": "311",
+      "stationName": "De Maisonneuve et Décarie",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.472882,
+        "longitude": -73.606035
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 620,
+      "stationNb": "310",
+      "stationName": "Fullum et Rachel (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535079,
+        "longitude": -73.564907
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 619,
+      "stationNb": "305",
+      "stationName": "6e Avenue et de Bellechasse",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551502,
+        "longitude": -73.585428
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 617,
+      "stationNb": "307",
+      "stationName": "Papineau et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527317,
+        "longitude": -73.56203
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 603,
+      "stationNb": "303",
+      "stationName": "De Chateaubriand et Rosemont",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.531589,
+        "longitude": -73.595533
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 597,
+      "stationNb": "299",
+      "stationName": "Jeanne-d'Arc et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.553515,
+        "longitude": -73.553976
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 596,
+      "stationNb": "298",
+      "stationName": "Baldwin et Ste-Claire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.60178,
+        "longitude": -73.52559
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 595,
+      "stationNb": "297",
+      "stationName": "Sherbrooke et du Fort",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.493301,
+        "longitude": -73.585357
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 594,
+      "stationNb": "296",
+      "stationName": "Isabella et Victoria",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.490264,
+        "longitude": -73.628063
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 589,
+      "stationNb": "295",
+      "stationName": "De Grosbois et Pierre-Bernard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.60751,
+        "longitude": -73.532495
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 587,
+      "stationNb": "293",
+      "stationName": "Bélanger et D'Iberville",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.552235,
+        "longitude": -73.598071
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 583,
+      "stationNb": "291",
+      "stationName": "Gare de Saint-Lambert",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.499024,
+        "longitude": -73.506878
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 582,
+      "stationNb": "290",
+      "stationName": "St-André et Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.515828,
+        "longitude": -73.557214
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 581,
+      "stationNb": "289",
+      "stationName": "Côte-des-Neiges et Van Horne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.500235,
+        "longitude": -73.631899
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 578,
+      "stationNb": "273",
+      "stationName": "Joliette et Hochelaga",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.546645,
+        "longitude": -73.549884
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 576,
+      "stationNb": "287",
+      "stationName": "De l'Assomption et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.570271,
+        "longitude": -73.550199
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 575,
+      "stationNb": "286",
+      "stationName": "Gladstone et Dorchester",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.486811,
+        "longitude": -73.586342
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 574,
+      "stationNb": "265",
+      "stationName": "Maison des arts de Laval",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.557953,
+        "longitude": -73.716454
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 573,
+      "stationNb": "266",
+      "stationName": "Hôtel de Ville de Laval",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5517678,
+        "longitude": -73.7438399
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 568,
+      "stationNb": "284",
+      "stationName": "Jarry et Henri-Julien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541096,
+        "longitude": -73.630312
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 567,
+      "stationNb": "283",
+      "stationName": "Crémazie et Fabre",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5530824,
+        "longitude": -73.6236525
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 563,
+      "stationNb": "281",
+      "stationName": "De Verdun et Caisse",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.469972,
+        "longitude": -73.570597
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 562,
+      "stationNb": "279",
+      "stationName": "30e Avenue et Bélanger",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.569385,
+        "longitude": -73.583126
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 561,
+      "stationNb": "278",
+      "stationName": "18e Avenue et Dandurand",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.556489,
+        "longitude": -73.572247
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 560,
+      "stationNb": "276",
+      "stationName": "De la Montagne et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.500338,
+        "longitude": -73.580115
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 559,
+      "stationNb": "277",
+      "stationName": "Gordon et Wellington",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.460981,
+        "longitude": -73.568133
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 556,
+      "stationNb": "269",
+      "stationName": "Calixa-Lavallée et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5248,
+        "longitude": -73.565733
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 548,
+      "stationNb": "267",
+      "stationName": "Lionel-Groulx et Vinet",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.485052,
+        "longitude": -73.575835
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 547,
+      "stationNb": "264",
+      "stationName": "Hôtel de Ville de Saint-Bruno",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5257048,
+        "longitude": -73.3413403
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 543,
+      "stationNb": "262",
+      "stationName": "Saint-Julien et De Charleroi",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.593359,
+        "longitude": -73.638528
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 540,
+      "stationNb": "260",
+      "stationName": "Quai de l'Horloge",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.509781,
+        "longitude": -73.549865
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 539,
+      "stationNb": "259",
+      "stationName": "Brébeuf et Curé-Poirier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5263345,
+        "longitude": -73.4822256
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 538,
+      "stationNb": "258",
+      "stationName": "De Maisonneuve et St-Mathieu",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.493921,
+        "longitude": -73.581034
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 536,
+      "stationNb": "256",
+      "stationName": "Allard et Beaulieu",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.451024,
+        "longitude": -73.594545
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 530,
+      "stationNb": "254",
+      "stationName": "Frontenac et Marie-Anne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.538334,
+        "longitude": -73.565691
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 528,
+      "stationNb": "250",
+      "stationName": "Bibliothèque Hochelaga",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.542304,
+        "longitude": -73.545897
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 523,
+      "stationNb": "248",
+      "stationName": "Jeanne-Mance et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.508688,
+        "longitude": -73.570321
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 522,
+      "stationNb": "247",
+      "stationName": "St-Just et Outremont",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.518224,
+        "longitude": -73.608106
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 521,
+      "stationNb": "246",
+      "stationName": "Dollard et Ducharme",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5204507,
+        "longitude": -73.6192835
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 520,
+      "stationNb": "245",
+      "stationName": "De l'Épée et Van Horne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.523142,
+        "longitude": -73.612018
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 519,
+      "stationNb": "244",
+      "stationName": "Querbes et Laurier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.517441,
+        "longitude": -73.598274
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 515,
+      "stationNb": "241",
+      "stationName": "Place Bonaventure (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.499713,
+        "longitude": -73.565315
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 513,
+      "stationNb": "239",
+      "stationName": "Mont-Royal et De Bullion",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521953,
+        "longitude": -73.585202
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 512,
+      "stationNb": "238",
+      "stationName": "Resther et Boucher",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529181,
+        "longitude": -73.589659
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 511,
+      "stationNb": "237",
+      "stationName": "Island et Richardson",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.481843,
+        "longitude": -73.565424
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 509,
+      "stationNb": "236",
+      "stationName": "Brown et Bannantyne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4484,
+        "longitude": -73.5783
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 508,
+      "stationNb": "235",
+      "stationName": "Jean-Brillant et McKenna",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5001,
+        "longitude": -73.6178
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 507,
+      "stationNb": "234",
+      "stationName": "CEPSUM",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5083,
+        "longitude": -73.6136
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 506,
+      "stationNb": "233",
+      "stationName": "St-Gérard et Jarry",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5439,
+        "longitude": -73.6279
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 501,
+      "stationNb": "230",
+      "stationName": "St-Grégoire et Marquette",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537219,
+        "longitude": -73.58614
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 500,
+      "stationNb": "229",
+      "stationName": "43e Avenue et St-Zotique (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.576,
+        "longitude": -73.5727
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 499,
+      "stationNb": "228",
+      "stationName": "41e Avenue et St-Zotique (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5748,
+        "longitude": -73.5735
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 498,
+      "stationNb": "227",
+      "stationName": "35e Avenue et de Bellechasse (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5688,
+        "longitude": -73.5699
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 497,
+      "stationNb": "226",
+      "stationName": "20e Avenue et de Bellechasse (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.560193,
+        "longitude": -73.577769
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 492,
+      "stationNb": "225",
+      "stationName": "Rosemont et Lacordaire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.577273,
+        "longitude": -73.560505
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 489,
+      "stationNb": "222",
+      "stationName": "Du Havre et La Fontaine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.532303,
+        "longitude": -73.54864
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 488,
+      "stationNb": "221",
+      "stationName": "De l'Esplanade et Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529238,
+        "longitude": -73.613494
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 486,
+      "stationNb": "220",
+      "stationName": "Hôtel de Ville de Mont-Royal",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.513497,
+        "longitude": -73.641894
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 484,
+      "stationNb": "219",
+      "stationName": "Hôtel de ville de St-Laurent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5066329,
+        "longitude": -73.6821558
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 483,
+      "stationNb": "218",
+      "stationName": "Métro Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.538818,
+        "longitude": -73.614373
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 481,
+      "stationNb": "217",
+      "stationName": "Campus Loyola",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4593485,
+        "longitude": -73.6395282
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 480,
+      "stationNb": "216",
+      "stationName": "Bourget et St-Jacques (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.480667,
+        "longitude": -73.584077
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 479,
+      "stationNb": "215",
+      "stationName": "Aréna Bill-Durnan",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.495115,
+        "longitude": -73.644615
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 478,
+      "stationNb": "214",
+      "stationName": "Aréna Doug-Harvey",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.471516,
+        "longitude": -73.63775
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 477,
+      "stationNb": "213",
+      "stationName": "15e Avenue et Bélanger",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.559891,
+        "longitude": -73.590516
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 476,
+      "stationNb": "212",
+      "stationName": "21e Avenue et Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.561779,
+        "longitude": -73.580767
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 475,
+      "stationNb": "211",
+      "stationName": "De Chateaubriand et Mistral",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5464,
+        "longitude": -73.6284
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 472,
+      "stationNb": "209",
+      "stationName": "Émile-Journault et Henri-Julien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5459882,
+        "longitude": -73.6436883
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 470,
+      "stationNb": "207",
+      "stationName": "Henri-Julien et Gilford (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5235,
+        "longitude": -73.5852
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 469,
+      "stationNb": "206",
+      "stationName": "Roy et St-Hubert (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.521103,
+        "longitude": -73.570829
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 467,
+      "stationNb": "204",
+      "stationName": "De Lévis et Notre-Dame",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.481469,
+        "longitude": -73.576356
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 465,
+      "stationNb": "203",
+      "stationName": "Hampton et Monkland",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4715,
+        "longitude": -73.6272
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 464,
+      "stationNb": "202",
+      "stationName": "Clark et de Liège",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5401,
+        "longitude": -73.6383
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 462,
+      "stationNb": "201",
+      "stationName": "Milton et du Parc",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5093,
+        "longitude": -73.5743
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 460,
+      "stationNb": "200",
+      "stationName": "Westminster et Curzon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4533,
+        "longitude": -73.6469
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 459,
+      "stationNb": "199",
+      "stationName": "Notre-Dame-de-Grâce et Prud'homme",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.476922,
+        "longitude": -73.616159
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 458,
+      "stationNb": "198",
+      "stationName": "Métro Bonaventure",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.498302,
+        "longitude": -73.566769
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 456,
+      "stationNb": "196",
+      "stationName": "1re Avenue et de Verdun",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.459058,
+        "longitude": -73.57373
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 452,
+      "stationNb": "195",
+      "stationName": "Préfontaine et Rachel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543352,
+        "longitude": -73.559976
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 446,
+      "stationNb": "190",
+      "stationName": "13e Avenue et de l'Ukraine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.556163,
+        "longitude": -73.583692
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 445,
+      "stationNb": "189",
+      "stationName": "Parc Nicolas-Viel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551584,
+        "longitude": -73.676145
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 437,
+      "stationNb": "186",
+      "stationName": "Centre de commerce mondial",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.502464,
+        "longitude": -73.560598
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 436,
+      "stationNb": "185",
+      "stationName": "Marché Maisonneuve",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.553426,
+        "longitude": -73.540899
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 432,
+      "stationNb": "183",
+      "stationName": "Gascon et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.536519,
+        "longitude": -73.559499
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 431,
+      "stationNb": "182",
+      "stationName": "Jarry et Boyer",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.547555,
+        "longitude": -73.625063
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 427,
+      "stationNb": "181",
+      "stationName": "St-André et Bélanger",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.539313,
+        "longitude": -73.608657
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 426,
+      "stationNb": "173",
+      "stationName": "Centrale et Raymond",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.420238,
+        "longitude": -73.60928
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 425,
+      "stationNb": "170",
+      "stationName": "Aréna Jacques-Lemaire",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.418064,
+        "longitude": -73.623229
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 424,
+      "stationNb": "171",
+      "stationName": "75e Avenue et Parent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.42121,
+        "longitude": -73.629524
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 423,
+      "stationNb": "174",
+      "stationName": "5e Avenue et Édouard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.43045,
+        "longitude": -73.594019
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 422,
+      "stationNb": "175",
+      "stationName": "5e Avenue et Centrale",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.431012,
+        "longitude": -73.597341
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 421,
+      "stationNb": "172",
+      "stationName": "Aquadôme",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.436191,
+        "longitude": -73.60822
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 420,
+      "stationNb": "169",
+      "stationName": "Hôtel de Ville de LaSalle",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.42895,
+        "longitude": -73.662348
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 419,
+      "stationNb": "180",
+      "stationName": "Métro Square-Victoria",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.500946,
+        "longitude": -73.562433
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 418,
+      "stationNb": "179",
+      "stationName": "Decelles et Côte-Ste-Catherine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.501387,
+        "longitude": -73.625311
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 417,
+      "stationNb": "178",
+      "stationName": "Dézéry et Hochelaga",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543545,
+        "longitude": -73.554667
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 412,
+      "stationNb": "177",
+      "stationName": "De Lanaudière et Mont-Royal",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53032,
+        "longitude": -73.577862
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 411,
+      "stationNb": "176",
+      "stationName": "Lajeunesse et Jarry",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54356,
+        "longitude": -73.627383
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 406,
+      "stationNb": "168",
+      "stationName": "Fullum et Larivière",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53127,
+        "longitude": -73.557377
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 394,
+      "stationNb": "163",
+      "stationName": "Dublin et Wellington",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.47728,
+        "longitude": -73.55881
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 393,
+      "stationNb": "162",
+      "stationName": "Champagneur et Jean-Talon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527078,
+        "longitude": -73.624794
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 391,
+      "stationNb": "160",
+      "stationName": "Napoléon et de Mentana",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522468,
+        "longitude": -73.570903
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 388,
+      "stationNb": "157",
+      "stationName": "Chabot et Gilford",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.535647,
+        "longitude": -73.577362
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 387,
+      "stationNb": "156",
+      "stationName": "Alexandre-De-Sève et Ontario",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.523696,
+        "longitude": -73.559688
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 382,
+      "stationNb": "154",
+      "stationName": "Parthenais et Logan",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527477,
+        "longitude": -73.552514
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 381,
+      "stationNb": "153",
+      "stationName": "Boyer et Villeray (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.544848,
+        "longitude": -73.619336
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 380,
+      "stationNb": "152",
+      "stationName": "Tolhurst et Sauvé",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543519,
+        "longitude": -73.66314
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 378,
+      "stationNb": "150",
+      "stationName": "Beaubien et Christophe-Colomb",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53786,
+        "longitude": -73.600715
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 377,
+      "stationNb": "149",
+      "stationName": "St-Joseph et Henri-Valade",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54774,
+        "longitude": -73.568699
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 376,
+      "stationNb": "148",
+      "stationName": "Laurier et St-Urbain",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.522101,
+        "longitude": -73.593916
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 371,
+      "stationNb": "147",
+      "stationName": "Drolet et Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5336,
+        "longitude": -73.6058
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 368,
+      "stationNb": "145",
+      "stationName": "Notre-Dame et de Courcelle",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.471891,
+        "longitude": -73.589757
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 363,
+      "stationNb": "141",
+      "stationName": "Everett et de Bordeaux",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551415,
+        "longitude": -73.608577
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 362,
+      "stationNb": "140",
+      "stationName": "Rachel et de Chambly",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.550459,
+        "longitude": -73.557938
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 361,
+      "stationNb": "139",
+      "stationName": "Maguire et St-Dominique",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.524826,
+        "longitude": -73.595151
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 360,
+      "stationNb": "138",
+      "stationName": "Hamelin et Henri-Bourassa",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.572389,
+        "longitude": -73.657966
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 296,
+      "stationNb": "099",
+      "stationName": "Hochelaga et Préfontaine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5427,
+        "longitude": -73.5542
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 185,
+      "stationNb": "037",
+      "stationName": "Goyer",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.509682,
+        "longitude": -73.63053
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 230,
+      "stationNb": "065",
+      "stationName": "Provost",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4422,
+        "longitude": -73.6661
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 294,
+      "stationNb": "097",
+      "stationName": "Roland-Therrien et De Gentilly",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543,
+        "longitude": -73.4904
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 317,
+      "stationNb": "116",
+      "stationName": "Riverside et Birch",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5068277,
+        "longitude": -73.517658
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 320,
+      "stationNb": "120",
+      "stationName": "De La Concorde et De Callières",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.591,
+        "longitude": -73.6696
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 337,
+      "stationNb": "127",
+      "stationName": "St-Florent et St-André",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.573229,
+        "longitude": -73.692828
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 353,
+      "stationNb": "135",
+      "stationName": "Victoria Hall",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.481231,
+        "longitude": -73.60046
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 358,
+      "stationNb": "136",
+      "stationName": "De Lanaudière et Marie-Anne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.529674,
+        "longitude": -73.57521
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 190,
+      "stationNb": "042",
+      "stationName": "Plantagenet",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5073,
+        "longitude": -73.6201
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 217,
+      "stationNb": "059",
+      "stationName": "Tour Penfield (NoCom)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4978,
+        "longitude": -73.5851
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 218,
+      "stationNb": "060",
+      "stationName": "Victoria et 17e avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.436,
+        "longitude": -73.679
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 238,
+      "stationNb": "069",
+      "stationName": "Bossuet et Sherbrooke",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5763005,
+        "longitude": -73.5491501
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 245,
+      "stationNb": "071",
+      "stationName": "Papineau et Bellechasse",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541819,
+        "longitude": -73.593451
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 252,
+      "stationNb": "074",
+      "stationName": "St-Jean et St-Laurent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5358,
+        "longitude": -73.5086
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 267,
+      "stationNb": "078",
+      "stationName": "Laurier et Durocher",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.51808,
+        "longitude": -73.59788
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 287,
+      "stationNb": "091",
+      "stationName": "Lucien-L'Allier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4943,
+        "longitude": -73.5692
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 290,
+      "stationNb": "093",
+      "stationName": "Appartements Rockhill",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4952,
+        "longitude": -73.6142
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 302,
+      "stationNb": "105",
+      "stationName": "Sherbrooke et Arcand",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.584738,
+        "longitude": -73.541095
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 308,
+      "stationNb": "111",
+      "stationName": "Ouimet et De L'Église",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5124,
+        "longitude": -73.6786
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 310,
+      "stationNb": "113",
+      "stationName": "Jardin De Lorimier (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53659,
+        "longitude": -73.57583
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 327,
+      "stationNb": "122",
+      "stationName": "Wolfe et Lavallée",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5332245,
+        "longitude": -73.4808949
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 333,
+      "stationNb": "125",
+      "stationName": "Technopôle Angus",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.543045,
+        "longitude": -73.563127
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 344,
+      "stationNb": "130",
+      "stationName": "Émery et Sanguinet",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.513618,
+        "longitude": -73.564191
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 350,
+      "stationNb": "133",
+      "stationName": "Tansley et Dorion",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.523867,
+        "longitude": -73.549729
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 352,
+      "stationNb": "134",
+      "stationName": "Gare de Westmount",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.47701,
+        "longitude": -73.597806
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 206,
+      "stationNb": "052",
+      "stationName": "Old Orchard",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4767,
+        "longitude": -73.6224
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 235,
+      "stationNb": "068",
+      "stationName": "Métro Longueuil-Port-de-Mer",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5261,
+        "longitude": -73.52092
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 265,
+      "stationNb": "076",
+      "stationName": "Bernard et de L'Épée",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52141,
+        "longitude": -73.6082
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 266,
+      "stationNb": "077",
+      "stationName": "Bernard et Wiseman",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.518834,
+        "longitude": -73.610213
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 282,
+      "stationNb": "088",
+      "stationName": "Parc Laurier (P sur rue)",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.530969,
+        "longitude": -73.588722
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 291,
+      "stationNb": "094",
+      "stationName": "La Fontaine et Pie-IX",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.54976,
+        "longitude": -73.53888
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 298,
+      "stationNb": "101",
+      "stationName": "Métro Radisson",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.589146,
+        "longitude": -73.539939
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 299,
+      "stationNb": "102",
+      "stationName": "Métro Longueuil-Terminus",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5228,
+        "longitude": -73.519515
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 164,
+      "stationNb": "014",
+      "stationName": "Rachel et Papineau",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5298,
+        "longitude": -73.5696
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 166,
+      "stationNb": "018",
+      "stationName": "Beaudry et Robin",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5201,
+        "longitude": -73.559
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 186,
+      "stationNb": "038",
+      "stationName": "Chambord et Fleury",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55998,
+        "longitude": -73.65828
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 189,
+      "stationNb": "041",
+      "stationName": "Métro Angrignon",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.445261,
+        "longitude": -73.602569
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 197,
+      "stationNb": "049",
+      "stationName": "Monk et Jolicoeur",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4574118,
+        "longitude": -73.5952734
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 285,
+      "stationNb": "090",
+      "stationName": "Sewell et des Pins",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.514942,
+        "longitude": -73.576787
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 306,
+      "stationNb": "109",
+      "stationName": "Éthel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.468014,
+        "longitude": -73.5674649
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 313,
+      "stationNb": "115",
+      "stationName": "Chez Magnan",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4797893,
+        "longitude": -73.5707781
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 339,
+      "stationNb": "128",
+      "stationName": "Collège Ahuntsic",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.551133,
+        "longitude": -73.64101
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 165,
+      "stationNb": "016",
+      "stationName": "Jean-de-Brébeuf",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4999628,
+        "longitude": -73.6236105
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 172,
+      "stationNb": "024",
+      "stationName": "Centre St-Pierre",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.518941,
+        "longitude": -73.553071
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 195,
+      "stationNb": "047",
+      "stationName": "Peel et Dr Penfield",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.50294,
+        "longitude": -73.579
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 212,
+      "stationNb": "056",
+      "stationName": "Hutchison et Milton",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.50891,
+        "longitude": -73.57499
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 279,
+      "stationNb": "085",
+      "stationName": "François-Perrault",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5614802,
+        "longitude": -73.600904
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 289,
+      "stationNb": "092",
+      "stationName": "Laprairie et Centre",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.479897,
+        "longitude": -73.5661899
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 293,
+      "stationNb": "096",
+      "stationName": "Collège Notre-Dame",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4947,
+        "longitude": -73.6225
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 273,
+      "stationNb": "080",
+      "stationName": "Napoléon et St-Dominique",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.517,
+        "longitude": -73.5771
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 155,
+      "stationNb": "003",
+      "stationName": "Garnier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.532228,
+        "longitude": -73.576052
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 170,
+      "stationNb": "022",
+      "stationName": "Place St-Henri",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4773,
+        "longitude": -73.5853
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 182,
+      "stationNb": "034",
+      "stationName": "Boyer et St-Zotique",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.537919,
+        "longitude": -73.604969
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 292,
+      "stationNb": "095",
+      "stationName": "Drolet et Marie-Anne",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5226,
+        "longitude": -73.5814
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 330,
+      "stationNb": "124",
+      "stationName": "Henri-Julien et De Castelnau",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5380596,
+        "longitude": -73.6193952
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 156,
+      "stationNb": "004",
+      "stationName": "Parc La Fontaine",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5224,
+        "longitude": -73.5665
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 175,
+      "stationNb": "027",
+      "stationName": "St-Joseph et De Bullion",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.524059,
+        "longitude": -73.590658
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 163,
+      "stationNb": "013",
+      "stationName": "6e Avenue",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5485,
+        "longitude": -73.5751
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 297,
+      "stationNb": "100",
+      "stationName": "St-Clément et Adam",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5576,
+        "longitude": -73.5325
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 173,
+      "stationNb": "025",
+      "stationName": "Christophe-Colomb et Rachel",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.5257,
+        "longitude": -73.575
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 193,
+      "stationNb": "045",
+      "stationName": "Evelyn",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4634,
+        "longitude": -73.5705
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 244,
+      "stationNb": "070",
+      "stationName": "Masson et De Lorimier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53978,
+        "longitude": -73.58154
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 198,
+      "stationNb": "050",
+      "stationName": "Parc Ahuntsic",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.556741,
+        "longitude": -73.663833
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 221,
+      "stationNb": "062",
+      "stationName": "4e avenue et Wellington",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4569949,
+        "longitude": -73.568174
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 216,
+      "stationNb": "058",
+      "stationName": "Cartier et Rosemont",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.541606,
+        "longitude": -73.591523
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 277,
+      "stationNb": "083",
+      "stationName": "Aréna Jean Rougeau",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.549,
+        "longitude": -73.6226
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 280,
+      "stationNb": "086",
+      "stationName": "Parc Père-Marquette",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.540165,
+        "longitude": -73.596472
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 281,
+      "stationNb": "087",
+      "stationName": "Parc Beaubien",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.552385,
+        "longitude": -73.588933
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 307,
+      "stationNb": "110",
+      "stationName": "Station Cartier",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.55954,
+        "longitude": -73.681724
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 168,
+      "stationNb": "020",
+      "stationName": "Bernard et Saint-Laurent",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.52744,
+        "longitude": -73.601969
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 199,
+      "stationNb": "051",
+      "stationName": "Aréna St-Louis",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.527663,
+        "longitude": -73.59985
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 304,
+      "stationNb": "107",
+      "stationName": "D'Iberville et Ontario",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.53336,
+        "longitude": -73.55486
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 328,
+      "stationNb": "123",
+      "stationName": "Woodland et de Verdun",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.452745,
+        "longitude": -73.5729232
+      },
+      "hasZone": false
+    },
+    {
+      "stationId": 345,
+      "stationNb": "131",
+      "stationName": "Benny et Monkland",
+      "cityId": 59,
+      "location": {
+        "latitude": 45.4673953,
+        "longitude": -73.6318869
+      },
+      "hasZone": false
+    }
+  ]
+}

@@ -7,6 +7,7 @@ from PyQt5.QtCore import Qt, pyqtSignal
 from api import fetch_all_vehicles, fetch_vehicle_details
 from model import Model
 from repeatTimer import RepeatTimer
+from stationView import StationsWidget
 from utils import openURL
 
 class CustomListWidget(QListWidget):
@@ -96,7 +97,7 @@ class FilterWidget(QWidget):
         # Clear the list_widget and populate it with filtered items
 
 
-class CustomWidget(QWidget):
+class FlexVehicleWidget(QWidget):
     def __init__(self, model: Model):
         super().__init__()
 
@@ -128,14 +129,14 @@ class CustomWidget(QWidget):
         self.refresh_button = QPushButton('Refresh')
         self.refresh_button.clicked.connect(self.on_refresh_button_clicked)
 
+        self.refresh_stations_button = QPushButton('Refresh Stations')
+        self.refresh_stations_button.clicked.connect(self.on_refresh_stations_button_clicked)
+
         self.stop_button = QPushButton('Stop')
         self.stop_button.clicked.connect(self.on_stop_button_clicked)
 
         self.clear_button = QPushButton('Clear')
         self.clear_button.clicked.connect(self.on_clear_button_clicked)
-
-        self.exit_button = QPushButton('Exit')
-        self.exit_button.clicked.connect(self.close)
 
         self.updated_label = QLabel('Data Updated:')
         self.updated_value = QLabel('')
@@ -180,9 +181,9 @@ class CustomWidget(QWidget):
         left_layout.addWidget(self.openCommunautoButton)
         left_layout.addWidget(self.search_button)
         left_layout.addWidget(self.refresh_button)
+        left_layout.addWidget(self.refresh_stations_button)
         left_layout.addWidget(self.stop_button)
         left_layout.addWidget(self.clear_button)
-        left_layout.addWidget(self.exit_button)
 
         right_layout.addWidget(self.updated_label)
         right_layout.addWidget(self.updated_value)
@@ -212,6 +213,9 @@ class CustomWidget(QWidget):
         latitude = float(self.latitude_input.text())
         longitude = float(self.longitude_input.text())
         self.refresh(distance, latitude, longitude)
+
+    def on_refresh_stations_button_clicked(self):
+        self.model.refresh_stations()
 
     def on_stop_button_clicked(self):
         self.search_button.setEnabled(True)
@@ -253,10 +257,6 @@ class CustomWidget(QWidget):
 
     def update_vehicle_details(self, details):
         self.vehicle_details_text.setText(details)
-
-    def show_location_on_map(self, lat, lon):
-        self.latitude_input.setText(str(lat))
-        self.longitude_input.setText(str(lon))
 
     def on_distance_slider_changed(self):
         distance = self.distance_slider.value()
@@ -321,11 +321,22 @@ class View(QMainWindow):
 
         self.tab_widget = QTabWidget()
 
-        self.tab1 = CustomWidget(model)
-        self.tab2 = QWidget()
+        self.tab1 = FlexVehicleWidget(model)
+        self.tab2 = StationsWidget(model)
 
+        self.exit_button_tab_1 = QPushButton('Exit')
+        self.exit_button_tab_1.clicked.connect(self.close)
+
+        self.exit_button_tab_2 = QPushButton('Exit')
+        self.exit_button_tab_2.clicked.connect(self.close)
+
+        self.tab1.layout().addWidget(self.exit_button_tab_1)
         self.tab_widget.addTab(self.tab1, "Tab 1")
+        self.tab2.layout().addWidget(self.exit_button_tab_2)
         self.tab_widget.addTab(self.tab2, "Tab 2")
+        
 
         self.setCentralWidget(self.tab_widget)
+
+        
 

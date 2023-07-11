@@ -16,7 +16,8 @@ def fetch_all_vehicles(lat, lng) -> VehicleGroup:
     return vehicle_group
 
 def fetch_all_stations_vehicles():
-    return callAPI("https://restapifrontoffice.reservauto.net/api/v2/Station?BranchId=1&CityId=59")
+    response = callAPI("https://restapifrontoffice.reservauto.net/api/v2/Station?BranchId=1&CityId=59")
+    return response.json()
 
 
 def fetch_vehicle_details(vehicle_id):
